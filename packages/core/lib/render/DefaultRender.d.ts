@@ -1,1 +1,2 @@
-export declare const DefaultRender: () => JSX.Element;
+import React from 'react';
+export declare const DefaultRender: () => React.JSX.Element;

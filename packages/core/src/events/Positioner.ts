@@ -92,7 +92,7 @@ export class Positioner {
 
   // Check if the elements being dragged are allowed to be dragged
   private validateDraggedNodes() {
-    // We don't need to check for dragTarget.type = "new" because those nodes are not yet in the state (ie: via the .create() connector)
+    // We don't need to check for dragTarget.type = "new" because those nodes are not yet in the state (ie: via the .create() connector)e
     if (this.dragTarget.type === 'new') {
       return;
     }
@@ -168,6 +168,88 @@ export class Positioner {
   }
 
   /**
+   * Check if the indicator should be updated
+   */
+
+  private isIndicatorUpdateRequired(
+    newParentNode: Node,
+    currentTargetDropNode: Node
+  ) {
+    const isTargetFooter = currentTargetDropNode.data.displayName === 'Footer';
+    const indicatorPosition =
+      currentTargetDropNode.data.displayName === 'Footer' ? 'after' : 'before';
+    if (currentTargetDropNode.data.displayName === 'Footer') {
+      return newParentNode.id === ROOT_NODE && this.currentIndicator
+        ? this.currentIndicator.placement &&
+            this.currentIndicator.placement.currentNode &&
+            (this.currentIndicator.error ||
+              this.currentIndicator.placement.where !== indicatorPosition)
+        : isTargetFooter;
+    } else {
+      return (
+        newParentNode.id === ROOT_NODE &&
+        this.currentIndicator &&
+        this.currentIndicator.placement &&
+        (!newParentNode.data.nodes.includes(
+          this.currentIndicator.placement.parent.id
+        ) ||
+          this.currentIndicator.error ||
+          this.currentIndicator.placement.where !== indicatorPosition)
+      );
+    }
+  }
+
+  /**
+   * If the new position is different check if the indicator should be updated
+   */
+  private shouldUpdateIndicator(
+    newParentNode: Node,
+    currentTargetDropNode: Node
+  ) {
+    return (
+      newParentNode.id === ROOT_NODE &&
+      this.currentIndicator &&
+      this.currentIndicator.placement &&
+      newParentNode.data.nodes.includes(currentTargetDropNode.id)
+    );
+  }
+
+  /**
+   * Get the new position of indicator if the cursor is on logo or "Footer"
+   */
+  private getNewIndicatorPosition(
+    newParentNode: Node,
+    currentTargetDropNode: Node
+  ) {
+    const indicatorPosition =
+      currentTargetDropNode.data.displayName === 'Footer' ? 'after' : 'before';
+    let newIndex = 0;
+    const mainNode = this.store.query.node(newParentNode.data.nodes[1]).get();
+    let resultNode = mainNode;
+
+    if (indicatorPosition === 'after' && mainNode.data.nodes.length > 0) {
+      resultNode = this.store.query
+        .node(mainNode.data.nodes[mainNode.data.nodes.length - 1])
+        .get();
+      newIndex = mainNode.data.nodes.length - 1;
+    }
+
+    const position = {
+      index: newIndex,
+      parent: mainNode,
+      where: indicatorPosition,
+    };
+    this.currentIndicator = {
+      placement: {
+        ...position,
+        currentNode: resultNode,
+      },
+      error: null,
+    };
+    return this.currentIndicator;
+  }
+
+  /**
    * Get closest Canvas node relative to the dropTargetId
    * Return dropTargetId if it itself is a Canvas node
    *
@@ -240,15 +322,38 @@ export class Positioner {
     this.currentTargetChildDimensions = this.getChildDimensions(newParentNode);
     this.currentTargetId = newParentNode.id;
 
-    const position = findPosition(
+    let position = findPosition(
       newParentNode,
       this.currentTargetChildDimensions,
       x,
       y
     );
+    const currentTargetDropNode = this.store.query
+      .node(this.currentDropTargetId)
+      .get();
 
     // Ignore if the position is similar as the previous one
     if (!this.isDiff(position)) {
+      if (
+        this.isIndicatorUpdateRequired(newParentNode, currentTargetDropNode) &&
+        this.dragTarget.type === 'new'
+      ) {
+        return this.getNewIndicatorPosition(
+          newParentNode,
+          currentTargetDropNode
+        );
+      } else {
+        return;
+      }
+    } else if (
+      this.isIndicatorUpdateRequired(newParentNode, currentTargetDropNode) &&
+      this.dragTarget.type === 'new'
+    ) {
+      return this.getNewIndicatorPosition(newParentNode, currentTargetDropNode);
+    } else if (
+      this.shouldUpdateIndicator(newParentNode, currentTargetDropNode) &&
+      this.dragTarget.type === 'new'
+    ) {
       return;
     }
 
