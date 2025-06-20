@@ -25,7 +25,6 @@ export declare function useInternalNode<S = null>(
             setIndicator: (
               indicator: import('../interfaces').Indicator
             ) => void;
-            reset: () => void;
             addLinkedNodeFromTree: (
               tree: import('../interfaces').NodeTree,
               parentId: string,
@@ -48,11 +47,12 @@ export declare function useInternalNode<S = null>(
                 | Record<string, import('../interfaces').SerializedNode>
             ) => void;
             move: (
-              selector: string | string[] | Node | Node[],
+              selector: string | Node | string[] | Node[],
               newParentId: string,
               index: number
             ) => void;
             replaceNodes: (nodes: Record<string, Node>) => void;
+            reset: () => void;
             setCustom: (
               selector: string | string[],
               cb: (data: any) => void
@@ -83,7 +83,6 @@ export declare function useInternalNode<S = null>(
                     setIndicator: (
                       indicator: import('../interfaces').Indicator
                     ) => void;
-                    reset: () => void;
                     addLinkedNodeFromTree: (
                       tree: import('../interfaces').NodeTree,
                       parentId: string,
@@ -106,11 +105,12 @@ export declare function useInternalNode<S = null>(
                         | Record<string, import('../interfaces').SerializedNode>
                     ) => void;
                     move: (
-                      selector: string | string[] | Node | Node[],
+                      selector: string | Node | string[] | Node[],
                       newParentId: string,
                       index: number
                     ) => void;
                     replaceNodes: (nodes: Record<string, Node>) => void;
+                    reset: () => void;
                     setCustom: (
                       selector: string | string[],
                       cb: (data: any) => void
@@ -147,7 +147,6 @@ export declare function useInternalNode<S = null>(
                           setIndicator: (
                             indicator: import('../interfaces').Indicator
                           ) => void;
-                          reset: () => void;
                           addLinkedNodeFromTree: (
                             tree: import('../interfaces').NodeTree,
                             parentId: string,
@@ -173,11 +172,12 @@ export declare function useInternalNode<S = null>(
                                 >
                           ) => void;
                           move: (
-                            selector: string | string[] | Node | Node[],
+                            selector: string | Node | string[] | Node[],
                             newParentId: string,
                             index: number
                           ) => void;
                           replaceNodes: (nodes: Record<string, Node>) => void;
+                          reset: () => void;
                           setCustom: (
                             selector: string | string[],
                             cb: (data: any) => void
@@ -194,7 +194,6 @@ export declare function useInternalNode<S = null>(
                         | 'clearEvents'
                         | 'setOptions'
                         | 'setIndicator'
-                        | 'reset'
                         | 'addLinkedNodeFromTree'
                         | 'add'
                         | 'addNodeTree'
@@ -202,6 +201,7 @@ export declare function useInternalNode<S = null>(
                         | 'deserialize'
                         | 'move'
                         | 'replaceNodes'
+                        | 'reset'
                         | 'setCustom'
                         | 'setHidden'
                         | 'setProp'
@@ -226,7 +226,6 @@ export declare function useInternalNode<S = null>(
                           setIndicator: (
                             indicator: import('../interfaces').Indicator
                           ) => void;
-                          reset: () => void;
                           addLinkedNodeFromTree: (
                             tree: import('../interfaces').NodeTree,
                             parentId: string,
@@ -252,11 +251,12 @@ export declare function useInternalNode<S = null>(
                                 >
                           ) => void;
                           move: (
-                            selector: string | string[] | Node | Node[],
+                            selector: string | Node | string[] | Node[],
                             newParentId: string,
                             index: number
                           ) => void;
                           replaceNodes: (nodes: Record<string, Node>) => void;
+                          reset: () => void;
                           setCustom: (
                             selector: string | string[],
                             cb: (data: any) => void
@@ -273,7 +273,6 @@ export declare function useInternalNode<S = null>(
                         | 'clearEvents'
                         | 'setOptions'
                         | 'setIndicator'
-                        | 'reset'
                         | 'addLinkedNodeFromTree'
                         | 'add'
                         | 'addNodeTree'
@@ -281,6 +280,7 @@ export declare function useInternalNode<S = null>(
                         | 'deserialize'
                         | 'move'
                         | 'replaceNodes'
+                        | 'reset'
                         | 'setCustom'
                         | 'setHidden'
                         | 'setProp'
@@ -305,7 +305,6 @@ export declare function useInternalNode<S = null>(
                           setIndicator: (
                             indicator: import('../interfaces').Indicator
                           ) => void;
-                          reset: () => void;
                           addLinkedNodeFromTree: (
                             tree: import('../interfaces').NodeTree,
                             parentId: string,
@@ -331,11 +330,12 @@ export declare function useInternalNode<S = null>(
                                 >
                           ) => void;
                           move: (
-                            selector: string | string[] | Node | Node[],
+                            selector: string | Node | string[] | Node[],
                             newParentId: string,
                             index: number
                           ) => void;
                           replaceNodes: (nodes: Record<string, Node>) => void;
+                          reset: () => void;
                           setCustom: (
                             selector: string | string[],
                             cb: (data: any) => void
@@ -352,7 +352,6 @@ export declare function useInternalNode<S = null>(
                         | 'clearEvents'
                         | 'setOptions'
                         | 'setIndicator'
-                        | 'reset'
                         | 'addLinkedNodeFromTree'
                         | 'add'
                         | 'addNodeTree'
@@ -360,6 +359,7 @@ export declare function useInternalNode<S = null>(
                         | 'deserialize'
                         | 'move'
                         | 'replaceNodes'
+                        | 'reset'
                         | 'setCustom'
                         | 'setHidden'
                         | 'setProp'
@@ -372,7 +372,6 @@ export declare function useInternalNode<S = null>(
                   | 'clearEvents'
                   | 'setOptions'
                   | 'setIndicator'
-                  | 'reset'
                   | 'addLinkedNodeFromTree'
                   | 'add'
                   | 'addNodeTree'
@@ -380,6 +379,7 @@ export declare function useInternalNode<S = null>(
                   | 'deserialize'
                   | 'move'
                   | 'replaceNodes'
+                  | 'reset'
                   | 'setCustom'
                   | 'setHidden'
                   | 'setProp'
@@ -411,7 +411,6 @@ export declare function useInternalNode<S = null>(
                   setIndicator: (
                     indicator: import('../interfaces').Indicator
                   ) => void;
-                  reset: () => void;
                   addLinkedNodeFromTree: (
                     tree: import('../interfaces').NodeTree,
                     parentId: string,
@@ -434,11 +433,12 @@ export declare function useInternalNode<S = null>(
                       | Record<string, import('../interfaces').SerializedNode>
                   ) => void;
                   move: (
-                    selector: string | string[] | Node | Node[],
+                    selector: string | Node | string[] | Node[],
                     newParentId: string,
                     index: number
                   ) => void;
                   replaceNodes: (nodes: Record<string, Node>) => void;
+                  reset: () => void;
                   setCustom: (
                     selector: string | string[],
                     cb: (data: any) => void
@@ -471,7 +471,6 @@ export declare function useInternalNode<S = null>(
                           setIndicator: (
                             indicator: import('../interfaces').Indicator
                           ) => void;
-                          reset: () => void;
                           addLinkedNodeFromTree: (
                             tree: import('../interfaces').NodeTree,
                             parentId: string,
@@ -497,11 +496,12 @@ export declare function useInternalNode<S = null>(
                                 >
                           ) => void;
                           move: (
-                            selector: string | string[] | Node | Node[],
+                            selector: string | Node | string[] | Node[],
                             newParentId: string,
                             index: number
                           ) => void;
                           replaceNodes: (nodes: Record<string, Node>) => void;
+                          reset: () => void;
                           setCustom: (
                             selector: string | string[],
                             cb: (data: any) => void
@@ -540,7 +540,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -566,13 +565,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -589,7 +589,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -597,6 +596,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -623,7 +623,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -649,13 +648,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -672,7 +672,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -680,6 +679,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -706,7 +706,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -732,13 +731,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -755,7 +755,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -763,6 +762,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -775,7 +775,6 @@ export declare function useInternalNode<S = null>(
                         | 'clearEvents'
                         | 'setOptions'
                         | 'setIndicator'
-                        | 'reset'
                         | 'addLinkedNodeFromTree'
                         | 'add'
                         | 'addNodeTree'
@@ -783,6 +782,7 @@ export declare function useInternalNode<S = null>(
                         | 'deserialize'
                         | 'move'
                         | 'replaceNodes'
+                        | 'reset'
                         | 'setCustom'
                         | 'setHidden'
                         | 'setProp'
@@ -790,7 +790,6 @@ export declare function useInternalNode<S = null>(
                     ) => void
                   ) => void;
                 },
-                | 'reset'
                 | 'addLinkedNodeFromTree'
                 | 'add'
                 | 'addNodeTree'
@@ -798,6 +797,7 @@ export declare function useInternalNode<S = null>(
                 | 'deserialize'
                 | 'move'
                 | 'replaceNodes'
+                | 'reset'
                 | 'setCustom'
                 | 'setHidden'
                 | 'setProp'
@@ -821,7 +821,6 @@ export declare function useInternalNode<S = null>(
                   setIndicator: (
                     indicator: import('../interfaces').Indicator
                   ) => void;
-                  reset: () => void;
                   addLinkedNodeFromTree: (
                     tree: import('../interfaces').NodeTree,
                     parentId: string,
@@ -844,11 +843,12 @@ export declare function useInternalNode<S = null>(
                       | Record<string, import('../interfaces').SerializedNode>
                   ) => void;
                   move: (
-                    selector: string | string[] | Node | Node[],
+                    selector: string | Node | string[] | Node[],
                     newParentId: string,
                     index: number
                   ) => void;
                   replaceNodes: (nodes: Record<string, Node>) => void;
+                  reset: () => void;
                   setCustom: (
                     selector: string | string[],
                     cb: (data: any) => void
@@ -881,7 +881,6 @@ export declare function useInternalNode<S = null>(
                           setIndicator: (
                             indicator: import('../interfaces').Indicator
                           ) => void;
-                          reset: () => void;
                           addLinkedNodeFromTree: (
                             tree: import('../interfaces').NodeTree,
                             parentId: string,
@@ -907,11 +906,12 @@ export declare function useInternalNode<S = null>(
                                 >
                           ) => void;
                           move: (
-                            selector: string | string[] | Node | Node[],
+                            selector: string | Node | string[] | Node[],
                             newParentId: string,
                             index: number
                           ) => void;
                           replaceNodes: (nodes: Record<string, Node>) => void;
+                          reset: () => void;
                           setCustom: (
                             selector: string | string[],
                             cb: (data: any) => void
@@ -950,7 +950,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -976,13 +975,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -999,7 +999,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -1007,6 +1006,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -1033,7 +1033,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -1059,13 +1058,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -1082,7 +1082,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -1090,6 +1089,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -1116,7 +1116,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -1142,13 +1141,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -1165,7 +1165,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -1173,6 +1172,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -1185,7 +1185,6 @@ export declare function useInternalNode<S = null>(
                         | 'clearEvents'
                         | 'setOptions'
                         | 'setIndicator'
-                        | 'reset'
                         | 'addLinkedNodeFromTree'
                         | 'add'
                         | 'addNodeTree'
@@ -1193,6 +1192,7 @@ export declare function useInternalNode<S = null>(
                         | 'deserialize'
                         | 'move'
                         | 'replaceNodes'
+                        | 'reset'
                         | 'setCustom'
                         | 'setHidden'
                         | 'setProp'
@@ -1200,7 +1200,6 @@ export declare function useInternalNode<S = null>(
                     ) => void
                   ) => void;
                 },
-                | 'reset'
                 | 'addLinkedNodeFromTree'
                 | 'add'
                 | 'addNodeTree'
@@ -1208,6 +1207,7 @@ export declare function useInternalNode<S = null>(
                 | 'deserialize'
                 | 'move'
                 | 'replaceNodes'
+                | 'reset'
                 | 'setCustom'
                 | 'setHidden'
                 | 'setProp'
@@ -1231,7 +1231,6 @@ export declare function useInternalNode<S = null>(
                   setIndicator: (
                     indicator: import('../interfaces').Indicator
                   ) => void;
-                  reset: () => void;
                   addLinkedNodeFromTree: (
                     tree: import('../interfaces').NodeTree,
                     parentId: string,
@@ -1254,11 +1253,12 @@ export declare function useInternalNode<S = null>(
                       | Record<string, import('../interfaces').SerializedNode>
                   ) => void;
                   move: (
-                    selector: string | string[] | Node | Node[],
+                    selector: string | Node | string[] | Node[],
                     newParentId: string,
                     index: number
                   ) => void;
                   replaceNodes: (nodes: Record<string, Node>) => void;
+                  reset: () => void;
                   setCustom: (
                     selector: string | string[],
                     cb: (data: any) => void
@@ -1291,7 +1291,6 @@ export declare function useInternalNode<S = null>(
                           setIndicator: (
                             indicator: import('../interfaces').Indicator
                           ) => void;
-                          reset: () => void;
                           addLinkedNodeFromTree: (
                             tree: import('../interfaces').NodeTree,
                             parentId: string,
@@ -1317,11 +1316,12 @@ export declare function useInternalNode<S = null>(
                                 >
                           ) => void;
                           move: (
-                            selector: string | string[] | Node | Node[],
+                            selector: string | Node | string[] | Node[],
                             newParentId: string,
                             index: number
                           ) => void;
                           replaceNodes: (nodes: Record<string, Node>) => void;
+                          reset: () => void;
                           setCustom: (
                             selector: string | string[],
                             cb: (data: any) => void
@@ -1360,7 +1360,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -1386,13 +1385,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -1409,7 +1409,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -1417,6 +1416,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -1443,7 +1443,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -1469,13 +1468,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -1492,7 +1492,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -1500,6 +1499,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -1526,7 +1526,6 @@ export declare function useInternalNode<S = null>(
                                 setIndicator: (
                                   indicator: import('../interfaces').Indicator
                                 ) => void;
-                                reset: () => void;
                                 addLinkedNodeFromTree: (
                                   tree: import('../interfaces').NodeTree,
                                   parentId: string,
@@ -1552,13 +1551,14 @@ export declare function useInternalNode<S = null>(
                                       >
                                 ) => void;
                                 move: (
-                                  selector: string | string[] | Node | Node[],
+                                  selector: string | Node | string[] | Node[],
                                   newParentId: string,
                                   index: number
                                 ) => void;
                                 replaceNodes: (
                                   nodes: Record<string, Node>
                                 ) => void;
+                                reset: () => void;
                                 setCustom: (
                                   selector: string | string[],
                                   cb: (data: any) => void
@@ -1575,7 +1575,6 @@ export declare function useInternalNode<S = null>(
                               | 'clearEvents'
                               | 'setOptions'
                               | 'setIndicator'
-                              | 'reset'
                               | 'addLinkedNodeFromTree'
                               | 'add'
                               | 'addNodeTree'
@@ -1583,6 +1582,7 @@ export declare function useInternalNode<S = null>(
                               | 'deserialize'
                               | 'move'
                               | 'replaceNodes'
+                              | 'reset'
                               | 'setCustom'
                               | 'setHidden'
                               | 'setProp'
@@ -1595,7 +1595,6 @@ export declare function useInternalNode<S = null>(
                         | 'clearEvents'
                         | 'setOptions'
                         | 'setIndicator'
-                        | 'reset'
                         | 'addLinkedNodeFromTree'
                         | 'add'
                         | 'addNodeTree'
@@ -1603,6 +1602,7 @@ export declare function useInternalNode<S = null>(
                         | 'deserialize'
                         | 'move'
                         | 'replaceNodes'
+                        | 'reset'
                         | 'setCustom'
                         | 'setHidden'
                         | 'setProp'
@@ -1610,7 +1610,6 @@ export declare function useInternalNode<S = null>(
                     ) => void
                   ) => void;
                 },
-                | 'reset'
                 | 'addLinkedNodeFromTree'
                 | 'add'
                 | 'addNodeTree'
@@ -1618,6 +1617,7 @@ export declare function useInternalNode<S = null>(
                 | 'deserialize'
                 | 'move'
                 | 'replaceNodes'
+                | 'reset'
                 | 'setCustom'
                 | 'setHidden'
                 | 'setProp'
@@ -1626,17 +1626,6 @@ export declare function useInternalNode<S = null>(
             };
           };
           query: {
-            getDropPlaceholder: (
-              source: string | string[] | Node | Node[],
-              target: string,
-              pos: {
-                x: number;
-                y: number;
-              },
-              nodesToDOM?: (node: Node) => HTMLElement
-            ) => import('../interfaces').Indicator;
-            getOptions: () => import('../interfaces').Options;
-            getNodes: () => Record<string, Node>;
             node: (
               id: string
             ) => {
@@ -1660,7 +1649,7 @@ export declare function useInternalNode<S = null>(
               childNodes(): string[];
               isDraggable(onError?: (err: string) => void): boolean;
               isDroppable(
-                selector: string | string[] | Node | Node[],
+                selector: string | Node | string[] | Node[],
                 onError?: (err: string) => void
               ): boolean;
               toSerializedNode(): import('../interfaces').SerializedNode;
@@ -1673,6 +1662,17 @@ export declare function useInternalNode<S = null>(
               decendants(deep?: boolean): any;
               isTopLevelCanvas(): boolean;
             };
+            getDropPlaceholder: (
+              source: string | Node | string[] | Node[],
+              target: string,
+              pos: {
+                x: number;
+                y: number;
+              },
+              nodesToDOM?: (node: Node) => HTMLElement
+            ) => import('../interfaces').Indicator;
+            getOptions: () => import('../interfaces').Options;
+            getNodes: () => Record<string, Node>;
             getSerializedNodes: () => Record<
               string,
               import('../interfaces').SerializedNode
@@ -1742,7 +1742,7 @@ export declare function useInternalNode<S = null>(
           };
         }
       >,
-      'query' | 'actions' | 'connectors'
+      'connectors' | 'actions' | 'query'
     >
 > & {
   id: string;

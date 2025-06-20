@@ -10,17 +10,6 @@ import {
 export declare const ActionMethods: (
   state: EditorState,
   query: {
-    getDropPlaceholder: (
-      source: string | string[] | Node | Node[],
-      target: string,
-      pos: {
-        x: number;
-        y: number;
-      },
-      nodesToDOM?: (node: Node) => HTMLElement
-    ) => Indicator;
-    getOptions: () => Options;
-    getNodes: () => Record<string, Node>;
     node: (
       id: string
     ) => {
@@ -44,7 +33,7 @@ export declare const ActionMethods: (
       childNodes(): string[];
       isDraggable(onError?: (err: string) => void): boolean;
       isDroppable(
-        selector: string | string[] | Node | Node[],
+        selector: string | Node | string[] | Node[],
         onError?: (err: string) => void
       ): boolean;
       toSerializedNode(): import('../interfaces').SerializedNode;
@@ -57,6 +46,17 @@ export declare const ActionMethods: (
       decendants(deep?: boolean): any;
       isTopLevelCanvas(): boolean;
     };
+    getDropPlaceholder: (
+      source: string | Node | string[] | Node[],
+      target: string,
+      pos: {
+        x: number;
+        y: number;
+      },
+      nodesToDOM?: (node: Node) => HTMLElement
+    ) => Indicator;
+    getOptions: () => Options;
+    getNodes: () => Record<string, Node>;
     getSerializedNodes: () => Record<
       string,
       import('../interfaces').SerializedNode
@@ -136,7 +136,6 @@ export declare const ActionMethods: (
           clearEvents: () => void;
           setOptions: (cb: (options: Partial<Options>) => void) => void;
           setIndicator: (indicator: Indicator) => void;
-          reset: () => void;
           addLinkedNodeFromTree: (
             tree: NodeTree,
             parentId: string,
@@ -159,11 +158,12 @@ export declare const ActionMethods: (
               | Record<string, import('../interfaces').SerializedNode>
           ) => void;
           move: (
-            selector: string | string[] | Node | Node[],
+            selector: string | Node | string[] | Node[],
             newParentId: string,
             index: number
           ) => void;
           replaceNodes: (nodes: Record<string, Node>) => void;
+          reset: () => void;
           setCustom: (
             selector: string | string[],
             cb: (data: any) => void
@@ -192,7 +192,6 @@ export declare const ActionMethods: (
                 clearEvents: () => void;
                 setOptions: (cb: (options: Partial<Options>) => void) => void;
                 setIndicator: (indicator: Indicator) => void;
-                reset: () => void;
                 addLinkedNodeFromTree: (
                   tree: NodeTree,
                   parentId: string,
@@ -215,11 +214,12 @@ export declare const ActionMethods: (
                     | Record<string, import('../interfaces').SerializedNode>
                 ) => void;
                 move: (
-                  selector: string | string[] | Node | Node[],
+                  selector: string | Node | string[] | Node[],
                   newParentId: string,
                   index: number
                 ) => void;
                 replaceNodes: (nodes: Record<string, Node>) => void;
+                reset: () => void;
                 setCustom: (
                   selector: string | string[],
                   cb: (data: any) => void
@@ -236,7 +236,6 @@ export declare const ActionMethods: (
               | 'clearEvents'
               | 'setOptions'
               | 'setIndicator'
-              | 'reset'
               | 'addLinkedNodeFromTree'
               | 'add'
               | 'addNodeTree'
@@ -244,6 +243,7 @@ export declare const ActionMethods: (
               | 'deserialize'
               | 'move'
               | 'replaceNodes'
+              | 'reset'
               | 'setCustom'
               | 'setHidden'
               | 'setProp'
@@ -260,7 +260,6 @@ export declare const ActionMethods: (
                 clearEvents: () => void;
                 setOptions: (cb: (options: Partial<Options>) => void) => void;
                 setIndicator: (indicator: Indicator) => void;
-                reset: () => void;
                 addLinkedNodeFromTree: (
                   tree: NodeTree,
                   parentId: string,
@@ -283,11 +282,12 @@ export declare const ActionMethods: (
                     | Record<string, import('../interfaces').SerializedNode>
                 ) => void;
                 move: (
-                  selector: string | string[] | Node | Node[],
+                  selector: string | Node | string[] | Node[],
                   newParentId: string,
                   index: number
                 ) => void;
                 replaceNodes: (nodes: Record<string, Node>) => void;
+                reset: () => void;
                 setCustom: (
                   selector: string | string[],
                   cb: (data: any) => void
@@ -304,7 +304,6 @@ export declare const ActionMethods: (
               | 'clearEvents'
               | 'setOptions'
               | 'setIndicator'
-              | 'reset'
               | 'addLinkedNodeFromTree'
               | 'add'
               | 'addNodeTree'
@@ -312,6 +311,7 @@ export declare const ActionMethods: (
               | 'deserialize'
               | 'move'
               | 'replaceNodes'
+              | 'reset'
               | 'setCustom'
               | 'setHidden'
               | 'setProp'
@@ -328,7 +328,6 @@ export declare const ActionMethods: (
                 clearEvents: () => void;
                 setOptions: (cb: (options: Partial<Options>) => void) => void;
                 setIndicator: (indicator: Indicator) => void;
-                reset: () => void;
                 addLinkedNodeFromTree: (
                   tree: NodeTree,
                   parentId: string,
@@ -351,11 +350,12 @@ export declare const ActionMethods: (
                     | Record<string, import('../interfaces').SerializedNode>
                 ) => void;
                 move: (
-                  selector: string | string[] | Node | Node[],
+                  selector: string | Node | string[] | Node[],
                   newParentId: string,
                   index: number
                 ) => void;
                 replaceNodes: (nodes: Record<string, Node>) => void;
+                reset: () => void;
                 setCustom: (
                   selector: string | string[],
                   cb: (data: any) => void
@@ -372,7 +372,6 @@ export declare const ActionMethods: (
               | 'clearEvents'
               | 'setOptions'
               | 'setIndicator'
-              | 'reset'
               | 'addLinkedNodeFromTree'
               | 'add'
               | 'addNodeTree'
@@ -380,6 +379,7 @@ export declare const ActionMethods: (
               | 'deserialize'
               | 'move'
               | 'replaceNodes'
+              | 'reset'
               | 'setCustom'
               | 'setHidden'
               | 'setProp'
@@ -392,7 +392,6 @@ export declare const ActionMethods: (
         | 'clearEvents'
         | 'setOptions'
         | 'setIndicator'
-        | 'reset'
         | 'addLinkedNodeFromTree'
         | 'add'
         | 'addNodeTree'
@@ -400,6 +399,7 @@ export declare const ActionMethods: (
         | 'deserialize'
         | 'move'
         | 'replaceNodes'
+        | 'reset'
         | 'setCustom'
         | 'setHidden'
         | 'setProp'
@@ -447,7 +447,7 @@ export declare const ActionMethods: (
    * @param index
    */
   move(
-    selector: string | string[] | Node | Node[],
+    selector: string | Node | string[] | Node[],
     newParentId: string,
     index: number
   ): void;

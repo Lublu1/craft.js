@@ -92,7 +92,7 @@ export class Positioner {
 
   // Check if the elements being dragged are allowed to be dragged
   private validateDraggedNodes() {
-    // We don't need to check for dragTarget.type = "new" because those nodes are not yet in the state (ie: via the .create() connector)
+    // We don't need to check for dragTarget.type = "new" because those nodes are not yet in the state (ie: via the .create() connector)e
     if (this.dragTarget.type === 'new') {
       return;
     }
@@ -335,7 +335,8 @@ export class Positioner {
     // Ignore if the position is similar as the previous one
     if (!this.isDiff(position)) {
       if (
-        this.isIndicatorUpdateRequired(newParentNode, currentTargetDropNode)
+        this.isIndicatorUpdateRequired(newParentNode, currentTargetDropNode) &&
+        this.dragTarget.type === 'new'
       ) {
         return this.getNewIndicatorPosition(
           newParentNode,
@@ -345,11 +346,13 @@ export class Positioner {
         return;
       }
     } else if (
-      this.isIndicatorUpdateRequired(newParentNode, currentTargetDropNode)
+      this.isIndicatorUpdateRequired(newParentNode, currentTargetDropNode) &&
+      this.dragTarget.type === 'new'
     ) {
       return this.getNewIndicatorPosition(newParentNode, currentTargetDropNode);
     } else if (
-      this.shouldUpdateIndicator(newParentNode, currentTargetDropNode)
+      this.shouldUpdateIndicator(newParentNode, currentTargetDropNode) &&
+      this.dragTarget.type === 'new'
     ) {
       return;
     }

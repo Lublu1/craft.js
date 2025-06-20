@@ -5,7 +5,7 @@ declare type config = {
 };
 export declare const getNodesFromSelector: (
   nodes: Record<string, Node>,
-  selector: string | string[] | Node | Node[],
+  selector: string | Node | string[] | Node[],
   config?: Partial<config>,
   source?: string
 ) => NodeSelectorWrapper[];

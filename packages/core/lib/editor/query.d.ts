@@ -18,7 +18,7 @@ export declare function QueryMethods(
    * TODO: replace with Positioner.computeIndicator();
    */
   getDropPlaceholder: (
-    source: string | string[] | Node | Node[],
+    source: string | Node | string[] | Node[],
     target: string,
     pos: {
       x: number;
@@ -58,7 +58,7 @@ export declare function QueryMethods(
     childNodes(): string[];
     isDraggable(onError?: (err: string) => void): boolean;
     isDroppable(
-      selector: string | string[] | Node | Node[],
+      selector: string | Node | string[] | Node[],
       onError?: (err: string) => void
     ): boolean;
     toSerializedNode(): SerializedNode;

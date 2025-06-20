@@ -6,17 +6,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
     methods: (
       state: import('..').EditorState,
       query: {
-        getDropPlaceholder: (
-          source: string | string[] | import('..').Node | import('..').Node[],
-          target: string,
-          pos: {
-            x: number;
-            y: number;
-          },
-          nodesToDOM?: (node: import('..').Node) => HTMLElement
-        ) => import('..').Indicator;
-        getOptions: () => import('..').Options;
-        getNodes: () => Record<string, import('..').Node>;
         node: (
           id: string
         ) => {
@@ -42,8 +31,8 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
           isDroppable(
             selector:
               | string
-              | string[]
               | import('..').Node
+              | string[]
               | import('..').Node[],
             onError?: (err: string) => void
           ): boolean;
@@ -57,6 +46,17 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
           decendants(deep?: boolean): any;
           isTopLevelCanvas(): boolean;
         };
+        getDropPlaceholder: (
+          source: string | import('..').Node | string[] | import('..').Node[],
+          target: string,
+          pos: {
+            x: number;
+            y: number;
+          },
+          nodesToDOM?: (node: import('..').Node) => HTMLElement
+        ) => import('..').Indicator;
+        getOptions: () => import('..').Options;
+        getNodes: () => Record<string, import('..').Node>;
         getSerializedNodes: () => Record<string, import('..').SerializedNode>;
         getEvent: (
           eventType: import('..').NodeEventTypes
@@ -139,7 +139,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                 cb: (options: Partial<import('..').Options>) => void
               ) => void;
               setIndicator: (indicator: import('..').Indicator) => void;
-              reset: () => void;
               addLinkedNodeFromTree: (
                 tree: import('..').NodeTree,
                 parentId: string,
@@ -162,13 +161,14 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
               move: (
                 selector:
                   | string
-                  | string[]
                   | import('..').Node
+                  | string[]
                   | import('..').Node[],
                 newParentId: string,
                 index: number
               ) => void;
               replaceNodes: (nodes: Record<string, import('..').Node>) => void;
+              reset: () => void;
               setCustom: (
                 selector: string | string[],
                 cb: (data: any) => void
@@ -199,7 +199,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                       cb: (options: Partial<import('..').Options>) => void
                     ) => void;
                     setIndicator: (indicator: import('..').Indicator) => void;
-                    reset: () => void;
                     addLinkedNodeFromTree: (
                       tree: import('..').NodeTree,
                       parentId: string,
@@ -224,8 +223,8 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                     move: (
                       selector:
                         | string
-                        | string[]
                         | import('..').Node
+                        | string[]
                         | import('..').Node[],
                       newParentId: string,
                       index: number
@@ -233,6 +232,7 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                     replaceNodes: (
                       nodes: Record<string, import('..').Node>
                     ) => void;
+                    reset: () => void;
                     setCustom: (
                       selector: string | string[],
                       cb: (data: any) => void
@@ -249,7 +249,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                   | 'clearEvents'
                   | 'setOptions'
                   | 'setIndicator'
-                  | 'reset'
                   | 'addLinkedNodeFromTree'
                   | 'add'
                   | 'addNodeTree'
@@ -257,6 +256,7 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                   | 'deserialize'
                   | 'move'
                   | 'replaceNodes'
+                  | 'reset'
                   | 'setCustom'
                   | 'setHidden'
                   | 'setProp'
@@ -275,7 +275,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                       cb: (options: Partial<import('..').Options>) => void
                     ) => void;
                     setIndicator: (indicator: import('..').Indicator) => void;
-                    reset: () => void;
                     addLinkedNodeFromTree: (
                       tree: import('..').NodeTree,
                       parentId: string,
@@ -300,8 +299,8 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                     move: (
                       selector:
                         | string
-                        | string[]
                         | import('..').Node
+                        | string[]
                         | import('..').Node[],
                       newParentId: string,
                       index: number
@@ -309,6 +308,7 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                     replaceNodes: (
                       nodes: Record<string, import('..').Node>
                     ) => void;
+                    reset: () => void;
                     setCustom: (
                       selector: string | string[],
                       cb: (data: any) => void
@@ -325,7 +325,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                   | 'clearEvents'
                   | 'setOptions'
                   | 'setIndicator'
-                  | 'reset'
                   | 'addLinkedNodeFromTree'
                   | 'add'
                   | 'addNodeTree'
@@ -333,6 +332,7 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                   | 'deserialize'
                   | 'move'
                   | 'replaceNodes'
+                  | 'reset'
                   | 'setCustom'
                   | 'setHidden'
                   | 'setProp'
@@ -351,7 +351,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                       cb: (options: Partial<import('..').Options>) => void
                     ) => void;
                     setIndicator: (indicator: import('..').Indicator) => void;
-                    reset: () => void;
                     addLinkedNodeFromTree: (
                       tree: import('..').NodeTree,
                       parentId: string,
@@ -376,8 +375,8 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                     move: (
                       selector:
                         | string
-                        | string[]
                         | import('..').Node
+                        | string[]
                         | import('..').Node[],
                       newParentId: string,
                       index: number
@@ -385,6 +384,7 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                     replaceNodes: (
                       nodes: Record<string, import('..').Node>
                     ) => void;
+                    reset: () => void;
                     setCustom: (
                       selector: string | string[],
                       cb: (data: any) => void
@@ -401,7 +401,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                   | 'clearEvents'
                   | 'setOptions'
                   | 'setIndicator'
-                  | 'reset'
                   | 'addLinkedNodeFromTree'
                   | 'add'
                   | 'addNodeTree'
@@ -409,6 +408,7 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
                   | 'deserialize'
                   | 'move'
                   | 'replaceNodes'
+                  | 'reset'
                   | 'setCustom'
                   | 'setHidden'
                   | 'setProp'
@@ -421,7 +421,6 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
             | 'clearEvents'
             | 'setOptions'
             | 'setIndicator'
-            | 'reset'
             | 'addLinkedNodeFromTree'
             | 'add'
             | 'addNodeTree'
@@ -429,6 +428,7 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
             | 'deserialize'
             | 'move'
             | 'replaceNodes'
+            | 'reset'
             | 'setCustom'
             | 'setHidden'
             | 'setProp'
@@ -455,7 +455,7 @@ export declare const EditorContext: import('react').Context<import('craftjs-util
         input: string | Record<string, import('..').SerializedNode>
       ): void;
       move(
-        selector: string | string[] | import('..').Node | import('..').Node[],
+        selector: string | import('..').Node | string[] | import('..').Node[],
         newParentId: string,
         index: number
       ): void;

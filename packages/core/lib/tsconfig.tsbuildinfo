@@ -137,95 +137,95 @@
         "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
-      "../../utils/lib/constants.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/constants.d.ts": {
         "version": "b6f472785c048dccea382f92f4ebf2211cb099b08a915a24bb60d735f5bd59ce",
         "signature": "b6f472785c048dccea382f92f4ebf2211cb099b08a915a24bb60d735f5bd59ce"
       },
-      "../../../node_modules/immer/compat/pre-3.7/dist/immer.d.ts": {
+      "../node_modules/immer/compat/pre-3.7/dist/immer.d.ts": {
         "version": "487f50ac2bdbffb3ce6f3822831f7d46773572c9272a023fb919904cdbdecd9e",
         "signature": "487f50ac2bdbffb3ce6f3822831f7d46773572c9272a023fb919904cdbdecd9e"
       },
-      "../../utils/lib/history.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/history.d.ts": {
         "version": "3590772197739c2f9c99ce3dc69be3bb9e9dc3f4b94ac5a7067b27dafa18bb98",
         "signature": "3590772197739c2f9c99ce3dc69be3bb9e9dc3f4b94ac5a7067b27dafa18bb98"
       },
-      "../../utils/lib/utilitytypes.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts": {
         "version": "555011e71ed644d50534ba9b32c105573182b907fe45a411d3675759cc84eb97",
         "signature": "555011e71ed644d50534ba9b32c105573182b907fe45a411d3675759cc84eb97"
       },
-      "../../utils/lib/usemethods.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/usemethods.d.ts": {
         "version": "a6b57bb95a124b3d3581f07113a8a6a13e279c72af96e39453dd85c9abfb7973",
         "signature": "a6b57bb95a124b3d3581f07113a8a6a13e279c72af96e39453dd85c9abfb7973"
       },
-      "../../utils/lib/getdominfo.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/getdominfo.d.ts": {
         "version": "544d102b545836ddbdb73bd36807d6d5e1a86f0ff015ec200963a30d74a323d2",
         "signature": "544d102b545836ddbdb73bd36807d6d5e1a86f0ff015ec200963a30d74a323d2"
       },
-      "../../utils/lib/usecollector.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/usecollector.d.ts": {
         "version": "5c62491e2f1d34ad4ff829d13b4ff6631bc98cd30b8d9de7336bf37044c601d4",
         "signature": "5c62491e2f1d34ad4ff829d13b4ff6631bc98cd30b8d9de7336bf37044c601d4"
       },
-      "../../utils/lib/eventhandlers/interfaces.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts": {
         "version": "ee774fd47e2fa2d553d5155cfa27ce82476d63367f448a02838c96b6b4093ec0",
         "signature": "ee774fd47e2fa2d553d5155cfa27ce82476d63367f448a02838c96b6b4093ec0"
       },
-      "../../utils/lib/eventhandlers/eventhandlers.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts": {
         "version": "3b025d5baa281ff103cbf13d6e5b930bba3076920e7562a7b823fc2f2c5b91da",
         "signature": "3b025d5baa281ff103cbf13d6e5b930bba3076920e7562a7b823fc2f2c5b91da"
       },
-      "../../utils/lib/eventhandlers/derivedeventhandlers.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/derivedeventhandlers.d.ts": {
         "version": "cbb12d5ce0bd318449ffe40b6f0b63fbbcb3665ad364bf18a1a4061f22e35d73",
         "signature": "cbb12d5ce0bd318449ffe40b6f0b63fbbcb3665ad364bf18a1a4061f22e35d73"
       },
-      "../../../node_modules/@types/react/global.d.ts": {
-        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
-        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6"
+      "../node_modules/@types/react/global.d.ts": {
+        "version": "3b75495c77f85fef76a898491b2eff2e4eb80a37d798a8ad8b39a578c2303859",
+        "signature": "3b75495c77f85fef76a898491b2eff2e4eb80a37d798a8ad8b39a578c2303859"
       },
-      "../../../node_modules/@types/react/node_modules/csstype/index.d.ts": {
-        "version": "4ee363f83d7be2202f34fcd84c44da71bf3a9329fee8a05f976f75083a52ea94",
-        "signature": "4ee363f83d7be2202f34fcd84c44da71bf3a9329fee8a05f976f75083a52ea94"
+      "../node_modules/csstype/index.d.ts": {
+        "version": "8a8eb4ebffd85e589a1cc7c178e291626c359543403d58c9cd22b81fab5b1fb9",
+        "signature": "8a8eb4ebffd85e589a1cc7c178e291626c359543403d58c9cd22b81fab5b1fb9"
       },
-      "../../../node_modules/@types/prop-types/index.d.ts": {
-        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
-        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad"
+      "../node_modules/@types/prop-types/index.d.ts": {
+        "version": "65ff5a0aefd7817a03c1ad04fee85c9cdd3ec415cc3c9efec85d8008d4d5e4ee",
+        "signature": "65ff5a0aefd7817a03c1ad04fee85c9cdd3ec415cc3c9efec85d8008d4d5e4ee"
       },
-      "../../../node_modules/@types/scheduler/tracing.d.ts": {
-        "version": "f5a8b384f182b3851cec3596ccc96cb7464f8d3469f48c74bf2befb782a19de5",
-        "signature": "f5a8b384f182b3851cec3596ccc96cb7464f8d3469f48c74bf2befb782a19de5"
+      "../node_modules/@types/scheduler/tracing.d.ts": {
+        "version": "b1bf87add0ccfb88472cd4c6013853d823a7efb791c10bb7a11679526be91eda",
+        "signature": "b1bf87add0ccfb88472cd4c6013853d823a7efb791c10bb7a11679526be91eda"
       },
-      "../../../node_modules/@types/react/index.d.ts": {
-        "version": "881ea8e225320dd9b436999d82998e1d7699e512e0597f0015e5abd59d95974a",
-        "signature": "881ea8e225320dd9b436999d82998e1d7699e512e0597f0015e5abd59d95974a"
+      "../node_modules/@types/react/index.d.ts": {
+        "version": "f13cc3ed28aef483c19b4cdb2615ededfd5c1ee2dbf719d8c58851b2283d65a1",
+        "signature": "f13cc3ed28aef483c19b4cdb2615ededfd5c1ee2dbf719d8c58851b2283d65a1"
       },
-      "../../utils/lib/eventhandlers/wrapconnectorhooks.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/wrapconnectorhooks.d.ts": {
         "version": "09144fb350ec34c3a3edac35e4e87e8f93d9ecc1d77f297445fc11b416de9297",
         "signature": "09144fb350ec34c3a3edac35e4e87e8f93d9ecc1d77f297445fc11b416de9297"
       },
-      "../../utils/lib/eventhandlers/index.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/index.d.ts": {
         "version": "2d4d4233e00e4015ea6705730dce39df015b403837f6e97ff881b99ecb043c27",
         "signature": "2d4d4233e00e4015ea6705730dce39df015b403837f6e97ff881b99ecb043c27"
       },
-      "../../utils/lib/renderindicator.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/renderindicator.d.ts": {
         "version": "c0759585656a7f75fd63c17acc06bd1219c29b6ade7b2efdb2d389a2b7cef7a0",
         "signature": "c0759585656a7f75fd63c17acc06bd1219c29b6ade7b2efdb2d389a2b7cef7a0"
       },
-      "../../utils/lib/useeffectonce.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/useeffectonce.d.ts": {
         "version": "15f022e0418f5746ece8fd4e8b02356c433613e31fe52cdbe1534689f9d446fe",
         "signature": "15f022e0418f5746ece8fd4e8b02356c433613e31fe52cdbe1534689f9d446fe"
       },
-      "../../utils/lib/deprecate.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/deprecate.d.ts": {
         "version": "cb3dfa53a467135eb625e38724081a2e1f71e17efc2641e9bf321cb28abb7afa",
         "signature": "cb3dfa53a467135eb625e38724081a2e1f71e17efc2641e9bf321cb28abb7afa"
       },
-      "../../utils/lib/getrandomid.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/getrandomid.d.ts": {
         "version": "010715dbe25478b4b6bb1826c203ded0b10b6e0c5d7dce862cd47688cde59e4e",
         "signature": "010715dbe25478b4b6bb1826c203ded0b10b6e0c5d7dce862cd47688cde59e4e"
       },
-      "../../utils/lib/platform.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/platform.d.ts": {
         "version": "3df44d2bb32f282f857e4f33f87ff50a071a835fcd03a3ce17bde527e0ed0415",
         "signature": "3df44d2bb32f282f857e4f33f87ff50a071a835fcd03a3ce17bde527e0ed0415"
       },
-      "../../utils/lib/index.d.ts": {
+      "../node_modules/craftjs-utils-meetovo/lib/index.d.ts": {
         "version": "5c4c103e36d3d0c6034acc14b43870a186bf65560d9cf41d0f32b055ab1b3277",
         "signature": "5c4c103e36d3d0c6034acc14b43870a186bf65560d9cf41d0f32b055ab1b3277"
       },
@@ -239,7 +239,7 @@
       },
       "../src/utils/getnodesfromselector.ts": {
         "version": "0bf1902f99d7774266f2c65e082a7833d45547b926c626be23a60278cdcd5283",
-        "signature": "0922b84a5ef33131f624829a9d883093c183b09d46f5c9cf9d0d4becc7011042"
+        "signature": "fb6998ab5e611605b9e0734e0faf4cb5fca0b3a3fd5ffd0d451ae3373224cd91"
       },
       "../src/utils/resolvecomponent.ts": {
         "version": "c77970842927a075964f631b6039fa0d0ba8530ed41c5b5cd53a6aac2114efa5",
@@ -247,11 +247,11 @@
       },
       "../src/utils/serializenode.tsx": {
         "version": "92935318293b2bb7ebe848bb0a77d72898e891e328e05d91aa17b35c8aa2db95",
-        "signature": "9e0d1ff93fd6c808891bb8f05106ec7c1759c05bae4aa04e54bb3bf4fda10174"
+        "signature": "02a2068b3f3a997c55f94b206f5e5434f76d08dd10918883e0baf2493cf6ce94"
       },
       "../src/editor/nodehelpers.ts": {
         "version": "66dcef5066f984486f8a2cf54de5bfaa056c712846743f8479e89349f84a4b36",
-        "signature": "efade5a3b43c865e6d33a80e6ce12d0270ed1b80faa8610acf45e7153f13fa39"
+        "signature": "5d0a219a6cb5ac55627fbdcd087494c4c9175e255d6c6a22c68f93e49b17cee5"
       },
       "../src/events/findposition.ts": {
         "version": "a038277eb1a5c2d0cc417b0303b0250127bea70b1a682658bf78e3016e9df71c",
@@ -263,7 +263,7 @@
       },
       "../src/utils/deserializenode.tsx": {
         "version": "ad1c390df1fdcfe2e6c2da71e86debdf93cfc0ea53c457bdbc89c35f4d564eab",
-        "signature": "1fcd9d219e5ba164c8de9502146874d71d57169d814f308031fe9e7597f8f536"
+        "signature": "d13eecb8c588e183c975084e45b66edeef2c4ddb789402996ea2255c1d20ba0b"
       },
       "../src/utils/fromentries.ts": {
         "version": "0d443e6fef73400c6d1d93bc7cbee8f6144d2ac11c4c59d313fac69b42652cd6",
@@ -279,7 +279,7 @@
       },
       "../src/editor/query.tsx": {
         "version": "12374e38827106dcb4052792b9d03a30166bddc640c3f0a65506b6d60937ccc0",
-        "signature": "4bff8922dbc5cda7b8e897024a3864d6f2d424dfc956bb898bd2f584efce4dad"
+        "signature": "61bbde30fbc1ec52efc3bf7052bb817cc1abafaf1a309dc04453c38047dc2129"
       },
       "../src/interfaces/nodes.ts": {
         "version": "0ac7874451ab1f6d077a732b5fbbf45535c960be305c61e92e7950ae732d5131",
@@ -295,7 +295,7 @@
       },
       "../src/editor/actions.ts": {
         "version": "800676ebde66ac21a88e0e10cdc86741ba24c6738f8f560b80ad9cbdbf780dce",
-        "signature": "7ed7b0a1d946d55eb75bfdfa684bef417f2782faee03fd5c18ae089b11945b1e"
+        "signature": "8c7a73a9dc49f5a89b1da0ec9f315612c594d971c00ebfa06a7bed23f4a63863"
       },
       "../src/events/coreeventhandlers.ts": {
         "version": "3c398e314e7d51d79b07df1ef669801608f9eb924ae26d213aa8ab6a7b9151cb",
@@ -306,7 +306,7 @@
         "signature": "367636e67bf6b6123d4690d4b9a705acd7ab37e7a696f876461b4e6fc9727976"
       },
       "../src/events/positioner.ts": {
-        "version": "7434e6791df5e0ad87f484264c0034838645d0643e624e10d441ddb13e4e2843",
+        "version": "9217d4b9c100f90f79a9a2456173bece99d544baf0627ad633474462e182d37c",
         "signature": "e69649b92ee772936127efc41f99296b0f4a977c6c2f9140d92cb784830fb39e"
       },
       "../src/events/createshadow.ts": {
@@ -323,7 +323,7 @@
       },
       "../src/editor/editorcontext.tsx": {
         "version": "28bf665fed45e4ed02a292ad8f5126e8fb9a9de6fd356b4ba30d90c87a8e3eb7",
-        "signature": "852a31518a682872d2ccbc116c4777beedb91e40244bd417734bf79dfe0326f2"
+        "signature": "ddf47d45a731b19b6afba2172a6d468d66c6269cc5703e3460c6db288c5aaca0"
       },
       "../src/editor/useinternaleditor.ts": {
         "version": "12c851a638c54462be2d7203911b46e4e67478c3a25bfbcd32849ad0034d9bfc",
@@ -343,7 +343,7 @@
       },
       "../src/editor/store.tsx": {
         "version": "35503a7b37fe7c0fc6b89645769a91538f7a5cb429b2301a9e8ae585477d16ba",
-        "signature": "bd1c19dbf40706e03e50d7fa104a3b234ceff41e6bdef3479a1532c39979b65c"
+        "signature": "5cd594570bb65ef6b02b8a5119fa46c4f569134d980e092243c1a637bc78ef0a"
       },
       "../src/interfaces/editor.ts": {
         "version": "48b0d61e0ca00bcb91b8a5251c9aae1523369f07150c1ff8e487f0ddcd7970ce",
@@ -359,11 +359,11 @@
       },
       "../src/nodes/useinternalnode.ts": {
         "version": "afa356230533ac80883efc151f5a78b01fae04b2a72320443dd63d68b98ea030",
-        "signature": "a3440c780230f0fdc8605836d4e09c0d5fbff2a9d13cd3eee9d683127101d698"
+        "signature": "a4205e76d43d5b70b1add2243d68881556722789fe1c1580bf12e247e935fab8"
       },
       "../src/hooks/usenode.ts": {
         "version": "9f22e61b51e8f95c4852744eb323b8d82c4b39ed66179ab4a540051013976212",
-        "signature": "191bbabd55de25f8f23cb6ee375aedafbfe8621b34091a29e180c8127b45d791"
+        "signature": "ffa3dac9dd2bd7eb05deae3ad9a7204b7fed6aaef0c1a021837a902c4d15b6dc"
       },
       "../src/render/simpleelement.tsx": {
         "version": "162184c7c8f57c5d0d707d664a931152cd5b0b4418ee248e719cf305db0198fa",
@@ -371,7 +371,7 @@
       },
       "../src/render/defaultrender.tsx": {
         "version": "ddc2c3aba6ada38b93ba082a5b1bea0eda9298dc67bac06b373d69bb6f6f340f",
-        "signature": "00bb1a6add698d0b9dff77579a4d8300298a843a8f6ecdd1e6ef3f270991e5eb"
+        "signature": "d14cc2b3cce529fdbeec5fee9c18b64a499610e0427601c178f38b7d9d1c5c22"
       },
       "../src/render/rendernode.tsx": {
         "version": "f32bdca673ad88c4224c3622f3a1c30aba5b77eeba6dd4bd99b6fae0446e63cc",
@@ -383,11 +383,11 @@
       },
       "../src/nodes/element.tsx": {
         "version": "f32d992be71b90f4b95c84556870c194a72f79968087bff726de6fabbb5ac16b",
-        "signature": "80580fc76adb905a2b77af5b0a99270f4bc5c780ac2bc3652995586b4844015b"
+        "signature": "8f36bebb791aab4a54ae9fde7c35c9a5706fc28637b1fd340b0227387884cad2"
       },
       "../src/nodes/canvas.tsx": {
         "version": "0d49e3c89be132f8b08e57d5030392f80776205577fd41b05a308f5bb77a35e8",
-        "signature": "76d2e73503d1fb2b434e3e018ea54d33badbee3b0c47e0088114c3b6eef4901b"
+        "signature": "1ffbad067f723ff9e65ec5b0a8c53d27f9ebc4985f6c51b3d08c84dd401377a8"
       },
       "../src/nodes/index.ts": {
         "version": "f4677a884a41548ec3d2eb5d803f7c4f785ba7dcc1bc06909fb77624c640b7f4",
@@ -407,11 +407,11 @@
       },
       "../src/hooks/legacy/connecteditor.tsx": {
         "version": "788d1273f3608dd60b54db3578f323d762fcc9a6784e591ba60d2ee5b0938fab",
-        "signature": "0bdbce88b4e3b0623032b7c4df8ac99ed8f3a6be29bd6f25ca3cbd6d40d9bb87"
+        "signature": "8aee1af243a42da40fa4c8f30ec8323dd948d03068c98572a167de8a88cc9090"
       },
       "../src/hooks/legacy/connectnode.tsx": {
         "version": "e07db2ae67102f2c2c9541dae49bf51cdfecb9c080561e533d4914ff9593e002",
-        "signature": "c39c7d29e78456388a67dfec06220884223f7d134c4a03002dbcb5a6dd4a936a"
+        "signature": "c2b507f8c241848f5b43a3b8b2a7c5ad7e1b7257f5532e8346c24333eb9bb22f"
       },
       "../src/hooks/index.ts": {
         "version": "20485bf7d0a4b9205a9de22bd309be91888506b69b2627d3686930bcfef23f0d",
@@ -432,6 +432,10 @@
       "../src/index.tsx": {
         "version": "c77db1c7d3513dd957845e90be1df26cb425db62316ae8b0d4dfc99f07a22675",
         "signature": "c77db1c7d3513dd957845e90be1df26cb425db62316ae8b0d4dfc99f07a22675"
+      },
+      "../node_modules/@types/scheduler/index.d.ts": {
+        "version": "4ef960df4f672e93b479f88211ed8b5cfa8a598b97aafa3396cacdc3341e3504",
+        "signature": "4ef960df4f672e93b479f88211ed8b5cfa8a598b97aafa3396cacdc3341e3504"
       },
       "../../../node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts": {
         "version": "9831162ce5f45c26f22caf9436a7e0dd0295001a7ec0e628405dd41e870148f5",
@@ -789,6 +793,10 @@
         "version": "599c67cf56a35a8a7bee5bcd877dece4cb71553efb763ebf1050c6987acfaefc",
         "signature": "599c67cf56a35a8a7bee5bcd877dece4cb71553efb763ebf1050c6987acfaefc"
       },
+      "../../../node_modules/@types/prop-types/index.d.ts": {
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad"
+      },
       "../../../node_modules/@types/react-color/node_modules/@types/react/index.d.ts": {
         "version": "58866040f9a8a9c341ab63ddb3d5e38fbccbaade44b47fc2444efced3eb99082",
         "signature": "58866040f9a8a9c341ab63ddb3d5e38fbccbaade44b47fc2444efced3eb99082"
@@ -932,10 +940,6 @@
       "../../../node_modules/@types/sax/index.d.ts": {
         "version": "c17785a46d81d27213ae62b86d6dc0e87e230106e9a57dbfb815d3bea978a6a5",
         "signature": "c17785a46d81d27213ae62b86d6dc0e87e230106e9a57dbfb815d3bea978a6a5"
-      },
-      "../../../node_modules/@types/scheduler/index.d.ts": {
-        "version": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
-        "signature": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5"
       },
       "../../../node_modules/@types/sinonjs__fake-timers/index.d.ts": {
         "version": "558a9770503071d5a6fc6c596f7230bb79f2d034ced4a205bd1ebcad3b5879ec",
@@ -1278,172 +1282,172 @@
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/constants.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/constants.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/immer/compat/pre-3.7/dist/immer.d.ts": [
+      "../node_modules/immer/compat/pre-3.7/dist/immer.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/history.d.ts": [
-        "../../../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/history.d.ts": [
+        "../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/utilitytypes.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/usemethods.d.ts": [
-        "../../../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
-        "../../utils/lib/history.d.ts",
-        "../../utils/lib/utilitytypes.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/usemethods.d.ts": [
+        "../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/history.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/getdominfo.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/getdominfo.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/usecollector.d.ts": [
-        "../../utils/lib/usemethods.d.ts",
-        "../../utils/lib/utilitytypes.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/usecollector.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/usemethods.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/interfaces.d.ts": [
-        "../../utils/lib/eventhandlers/eventhandlers.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/eventhandlers.d.ts": [
-        "../../utils/lib/eventhandlers/interfaces.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/derivedeventhandlers.d.ts": [
-        "../../utils/lib/eventhandlers/eventhandlers.d.ts",
-        "../../utils/lib/eventhandlers/interfaces.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/derivedeventhandlers.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/react/global.d.ts": [
+      "../node_modules/@types/react/global.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/react/node_modules/csstype/index.d.ts": [
+      "../node_modules/csstype/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/prop-types/index.d.ts": [
+      "../node_modules/@types/prop-types/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/scheduler/tracing.d.ts": [
+      "../node_modules/@types/scheduler/tracing.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/react/index.d.ts": [
-        "../../../node_modules/@types/react/node_modules/csstype/index.d.ts",
-        "../../../node_modules/@types/prop-types/index.d.ts",
-        "../../../node_modules/@types/scheduler/tracing.d.ts",
-        "../../../node_modules/@types/react/global.d.ts",
+      "../node_modules/@types/react/index.d.ts": [
+        "../node_modules/csstype/index.d.ts",
+        "../node_modules/@types/prop-types/index.d.ts",
+        "../node_modules/@types/scheduler/tracing.d.ts",
+        "../node_modules/@types/react/global.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/wrapconnectorhooks.d.ts": [
-        "../../utils/lib/eventhandlers/interfaces.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/wrapconnectorhooks.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/index.d.ts": [
-        "../../utils/lib/eventhandlers/eventhandlers.d.ts",
-        "../../utils/lib/eventhandlers/derivedeventhandlers.d.ts",
-        "../../utils/lib/eventhandlers/wrapconnectorhooks.d.ts",
-        "../../utils/lib/eventhandlers/interfaces.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/index.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/derivedeventhandlers.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/wrapconnectorhooks.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/renderindicator.d.ts": [
-        "../../../node_modules/@types/react/index.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/renderindicator.d.ts": [
+        "../node_modules/@types/react/index.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/useeffectonce.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/useeffectonce.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/deprecate.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/deprecate.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/getrandomid.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/getrandomid.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/platform.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/platform.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/index.d.ts": [
-        "../../utils/lib/constants.d.ts",
-        "../../utils/lib/usemethods.d.ts",
-        "../../utils/lib/getdominfo.d.ts",
-        "../../utils/lib/usecollector.d.ts",
-        "../../utils/lib/eventhandlers/index.d.ts",
-        "../../utils/lib/renderindicator.d.ts",
-        "../../utils/lib/useeffectonce.d.ts",
-        "../../utils/lib/deprecate.d.ts",
-        "../../utils/lib/utilitytypes.d.ts",
-        "../../utils/lib/history.d.ts",
-        "../../utils/lib/getrandomid.d.ts",
-        "../../utils/lib/platform.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/index.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/constants.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/usemethods.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/getdominfo.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/usecollector.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/renderindicator.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/useeffectonce.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/deprecate.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/history.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/getrandomid.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/platform.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
@@ -1463,7 +1467,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/utils/getnodesfromselector.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/interfaces/index.ts",
         "../../../node_modules/@types/node/fs.d.ts",
@@ -1472,7 +1476,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/utils/resolvecomponent.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/interfaces/index.ts",
         "../../../node_modules/@types/node/fs.d.ts",
@@ -1481,7 +1485,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/utils/serializenode.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/utils/resolvecomponent.ts",
         "../src/interfaces/index.ts",
         "../../../node_modules/@types/node/fs.d.ts",
@@ -1490,7 +1494,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/editor/nodehelpers.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/interfaces/index.ts",
         "../src/utils/getnodesfromselector.ts",
@@ -1508,8 +1512,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/utils/createnode.ts": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/index.ts",
         "../src/nodes/index.ts",
         "../src/nodes/nodecontext.tsx",
@@ -1519,8 +1523,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/utils/deserializenode.tsx": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/utils/resolvecomponent.ts",
         "../src/interfaces/index.ts",
@@ -1544,7 +1548,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/utils/parsenodefromjsx.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/utils/createnode.ts",
         "../src/interfaces/index.ts",
         "../../../node_modules/@types/node/fs.d.ts",
@@ -1553,8 +1557,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/editor/query.tsx": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/editor/eventhelpers.ts",
         "../src/editor/nodehelpers.ts",
@@ -1573,8 +1577,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/interfaces/nodes.ts": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/editor/query.tsx",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1596,7 +1600,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/editor/actions.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/editor/query.tsx",
         "../src/interfaces/index.ts",
@@ -1609,7 +1613,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/events/coreeventhandlers.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/store.tsx",
         "../src/interfaces/nodes.ts",
         "../../../node_modules/@types/node/fs.d.ts",
@@ -1618,7 +1622,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/events/eventcontext.ts": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/events/coreeventhandlers.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1626,7 +1630,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/events/positioner.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/events/findposition.ts",
         "../src/editor/store.tsx",
         "../src/interfaces/index.ts",
@@ -1643,7 +1647,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/events/defaulteventhandlers.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/events/coreeventhandlers.ts",
         "../src/events/positioner.ts",
         "../src/events/createshadow.ts",
@@ -1661,7 +1665,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/editor/editorcontext.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/editor/store.tsx",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1669,8 +1673,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/editor/useinternaleditor.ts": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/editor/editorcontext.tsx",
         "../src/editor/query.tsx",
@@ -1684,8 +1688,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/events/rendereditorindicator.tsx": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/events/eventcontext.ts",
         "../src/events/moveplaceholder.ts",
         "../src/editor/useinternaleditor.ts",
@@ -1695,7 +1699,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/events/events.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/events/eventcontext.ts",
         "../src/events/rendereditorindicator.tsx",
         "../src/editor/editorcontext.tsx",
@@ -1715,7 +1719,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/editor/store.tsx": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/actions.ts",
         "../src/editor/query.tsx",
         "../src/events/index.tsx",
@@ -1726,7 +1730,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/interfaces/editor.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/interfaces/events.ts",
         "../src/interfaces/nodes.ts",
         "../src/editor/query.tsx",
@@ -1748,7 +1752,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/nodes/nodecontext.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/index.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1756,8 +1760,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/nodes/useinternalnode.ts": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/nodes/nodecontext.tsx",
         "../src/editor/useinternaleditor.ts",
@@ -1768,7 +1772,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/hooks/usenode.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/interfaces/index.ts",
         "../src/nodes/useinternalnode.ts",
         "../../../node_modules/@types/node/fs.d.ts",
@@ -1777,7 +1781,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/render/simpleelement.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/hooks/usenode.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1785,7 +1789,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/render/defaultrender.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/render/simpleelement.tsx",
         "../src/interfaces/index.ts",
         "../src/nodes/nodeelement.tsx",
@@ -1796,7 +1800,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/render/rendernode.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/render/defaultrender.tsx",
         "../src/editor/useinternaleditor.ts",
         "../src/nodes/useinternalnode.ts",
@@ -1806,7 +1810,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/nodes/nodeelement.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/nodes/nodecontext.tsx",
         "../src/interfaces/index.ts",
         "../src/render/rendernode.tsx",
@@ -1816,8 +1820,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/nodes/element.tsx": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/nodes/nodeelement.tsx",
         "../src/nodes/useinternalnode.ts",
@@ -1829,8 +1833,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/nodes/canvas.tsx": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/nodes/element.tsx",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1848,8 +1852,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/render/frame.tsx": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/editor/useinternaleditor.ts",
         "../src/interfaces/index.ts",
         "../src/nodes/nodeelement.tsx",
@@ -1866,8 +1870,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/hooks/useeditor.tsx": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/editor/useinternaleditor.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1875,7 +1879,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/hooks/legacy/connecteditor.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/index.ts",
         "../src/hooks/useeditor.tsx",
         "../../../node_modules/@types/node/fs.d.ts",
@@ -1884,7 +1888,7 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/hooks/legacy/connectnode.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/index.ts",
         "../src/hooks/usenode.ts",
         "../../../node_modules/@types/node/fs.d.ts",
@@ -1903,8 +1907,8 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/editor/editor.tsx": [
-        "../../utils/lib/index.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../node_modules/tiny-invariant/src/index.d.ts",
         "../src/editor/editorcontext.tsx",
         "../src/editor/store.tsx",
@@ -1942,7 +1946,13 @@
         "../src/editor/index.tsx",
         "../src/events/index.tsx",
         "../src/utils/testhelpers.ts",
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
+        "../../../node_modules/@types/node/fs.d.ts",
+        "../../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../node_modules/@types/node/util.d.ts",
+        "../../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/scheduler/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
@@ -2600,6 +2610,12 @@
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../../../node_modules/@types/prop-types/index.d.ts": [
+        "../../../node_modules/@types/node/fs.d.ts",
+        "../../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../node_modules/@types/node/util.d.ts",
+        "../../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../../../node_modules/@types/react-color/node_modules/@types/react/index.d.ts": [
         "../../../node_modules/@types/react-color/node_modules/csstype/index.d.ts",
         "../../../node_modules/@types/prop-types/index.d.ts",
@@ -2895,12 +2911,6 @@
       "../../../node_modules/@types/sax/index.d.ts": [
         "../../../node_modules/@types/node/stream.d.ts",
         "../../../node_modules/@types/node/ts3.2/index.d.ts",
-        "../../../node_modules/@types/node/fs.d.ts",
-        "../../../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../../../node_modules/@types/node/util.d.ts",
-        "../../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../../node_modules/@types/scheduler/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
@@ -3317,172 +3327,172 @@
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/constants.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/constants.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/immer/compat/pre-3.7/dist/immer.d.ts": [
+      "../node_modules/immer/compat/pre-3.7/dist/immer.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/history.d.ts": [
-        "../../../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/history.d.ts": [
+        "../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/utilitytypes.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/usemethods.d.ts": [
-        "../../../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
-        "../../utils/lib/history.d.ts",
-        "../../utils/lib/utilitytypes.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/usemethods.d.ts": [
+        "../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/history.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/getdominfo.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/getdominfo.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/usecollector.d.ts": [
-        "../../utils/lib/usemethods.d.ts",
-        "../../utils/lib/utilitytypes.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/usecollector.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/usemethods.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/interfaces.d.ts": [
-        "../../utils/lib/eventhandlers/eventhandlers.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/eventhandlers.d.ts": [
-        "../../utils/lib/eventhandlers/interfaces.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/derivedeventhandlers.d.ts": [
-        "../../utils/lib/eventhandlers/eventhandlers.d.ts",
-        "../../utils/lib/eventhandlers/interfaces.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/derivedeventhandlers.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/react/global.d.ts": [
+      "../node_modules/@types/react/global.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/react/node_modules/csstype/index.d.ts": [
+      "../node_modules/csstype/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/prop-types/index.d.ts": [
+      "../node_modules/@types/prop-types/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/scheduler/tracing.d.ts": [
+      "../node_modules/@types/scheduler/tracing.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/react/index.d.ts": [
-        "../../../node_modules/@types/react/node_modules/csstype/index.d.ts",
-        "../../../node_modules/@types/prop-types/index.d.ts",
-        "../../../node_modules/@types/scheduler/tracing.d.ts",
-        "../../../node_modules/@types/react/global.d.ts",
+      "../node_modules/@types/react/index.d.ts": [
+        "../node_modules/csstype/index.d.ts",
+        "../node_modules/@types/prop-types/index.d.ts",
+        "../node_modules/@types/scheduler/tracing.d.ts",
+        "../node_modules/@types/react/global.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/wrapconnectorhooks.d.ts": [
-        "../../utils/lib/eventhandlers/interfaces.d.ts",
-        "../../../node_modules/@types/react/index.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/wrapconnectorhooks.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/eventhandlers/index.d.ts": [
-        "../../utils/lib/eventhandlers/eventhandlers.d.ts",
-        "../../utils/lib/eventhandlers/derivedeventhandlers.d.ts",
-        "../../utils/lib/eventhandlers/wrapconnectorhooks.d.ts",
-        "../../utils/lib/eventhandlers/interfaces.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/index.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/derivedeventhandlers.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/wrapconnectorhooks.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/renderindicator.d.ts": [
-        "../../../node_modules/@types/react/index.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/renderindicator.d.ts": [
+        "../node_modules/@types/react/index.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/useeffectonce.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/useeffectonce.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/deprecate.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/deprecate.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/getrandomid.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/getrandomid.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/platform.d.ts": [
+      "../node_modules/craftjs-utils-meetovo/lib/platform.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../utils/lib/index.d.ts": [
-        "../../utils/lib/constants.d.ts",
-        "../../utils/lib/usemethods.d.ts",
-        "../../utils/lib/getdominfo.d.ts",
-        "../../utils/lib/usecollector.d.ts",
-        "../../utils/lib/eventhandlers/index.d.ts",
-        "../../utils/lib/renderindicator.d.ts",
-        "../../utils/lib/useeffectonce.d.ts",
-        "../../utils/lib/deprecate.d.ts",
-        "../../utils/lib/utilitytypes.d.ts",
-        "../../utils/lib/history.d.ts",
-        "../../utils/lib/getrandomid.d.ts",
-        "../../utils/lib/platform.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/index.d.ts": [
+        "../node_modules/craftjs-utils-meetovo/lib/constants.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/usemethods.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/getdominfo.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/usecollector.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/renderindicator.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/useeffectonce.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/deprecate.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/history.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/getrandomid.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/platform.d.ts",
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/util.d.ts",
@@ -3501,11 +3511,11 @@
         "../src/interfaces/index.ts"
       ],
       "../src/utils/resolvecomponent.ts": [
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/utils/serializenode.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/editor/nodehelpers.ts": [
         "../src/interfaces/index.ts"
@@ -3518,22 +3528,22 @@
       ],
       "../src/utils/deserializenode.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/utils/mergetrees.tsx": [
         "../src/interfaces/index.ts"
       ],
       "../src/utils/parsenodefromjsx.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/index.ts"
       ],
       "../src/editor/query.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/interfaces/nodes.ts": [
-        "../../../node_modules/@types/react/index.d.ts",
-        "../../utils/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/query.tsx"
       ],
       "../src/interfaces/events.ts": [
@@ -3544,16 +3554,16 @@
       ],
       "../src/editor/actions.ts": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/events/coreeventhandlers.ts": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/nodes.ts",
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/store.tsx"
       ],
       "../src/events/eventcontext.ts": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/events/coreeventhandlers.ts"
       ],
       "../src/events/positioner.ts": [
@@ -3561,7 +3571,7 @@
         "../src/interfaces/index.ts"
       ],
       "../src/events/defaulteventhandlers.ts": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/index.ts",
         "../src/events/positioner.ts",
         "../src/events/coreeventhandlers.ts"
@@ -3571,23 +3581,23 @@
       ],
       "../src/editor/editorcontext.tsx": [
         "../src/index.tsx",
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/editor/query.tsx",
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/store.tsx"
       ],
       "../src/editor/useinternaleditor.ts": [
         "../src/interfaces/index.ts",
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/query.tsx",
         "../src/editor/store.tsx",
         "../src/events/coreeventhandlers.ts"
       ],
       "../src/events/rendereditorindicator.tsx": [
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/events/events.tsx": [
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/events/index.tsx": [
         "../src/events/eventcontext.ts",
@@ -3597,12 +3607,12 @@
       ],
       "../src/editor/store.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts",
-        "../../utils/lib/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/query.tsx"
       ],
       "../src/interfaces/editor.ts": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/query.tsx",
         "../src/editor/store.tsx",
         "../src/events/index.tsx",
@@ -3617,33 +3627,36 @@
       ],
       "../src/nodes/nodecontext.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/nodes/useinternalnode.ts": [
         "../src/editor/useinternaleditor.ts",
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts",
-        "../../utils/lib/index.d.ts"
+        "../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts"
       ],
       "../src/hooks/usenode.ts": [
         "../src/editor/useinternaleditor.ts",
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts",
-        "../../utils/lib/index.d.ts"
+        "../node_modules/@types/react/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts"
+      ],
+      "../src/render/defaultrender.tsx": [
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/render/rendernode.tsx": [
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/nodes/nodeelement.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/nodes/element.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/index.ts"
       ],
       "../src/nodes/canvas.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/nodes/element.tsx"
       ],
       "../src/nodes/index.ts": [
@@ -3654,22 +3667,22 @@
       ],
       "../src/render/frame.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/render/index.tsx": [
         "../src/render/frame.tsx"
       ],
       "../src/hooks/useeditor.tsx": [
-        "../../utils/lib/index.d.ts",
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
         "../src/editor/useinternaleditor.ts"
       ],
       "../src/hooks/legacy/connecteditor.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/hooks/legacy/connectnode.tsx": [
         "../src/interfaces/index.ts",
-        "../../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/hooks/index.ts": [
         "../src/hooks/useeditor.tsx",
@@ -3678,7 +3691,7 @@
         "../src/hooks/legacy/connectnode.tsx"
       ],
       "../src/editor/editor.tsx": [
-        "../../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../src/interfaces/index.ts"
       ],
       "../src/editor/index.tsx": [
@@ -3698,7 +3711,13 @@
         "../src/editor/index.tsx",
         "../src/events/index.tsx",
         "../src/utils/testhelpers.ts",
-        "../../utils/lib/index.d.ts"
+        "../node_modules/craftjs-utils-meetovo/lib/index.d.ts"
+      ],
+      "../node_modules/@types/scheduler/index.d.ts": [
+        "../../../node_modules/@types/node/fs.d.ts",
+        "../../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../node_modules/@types/node/util.d.ts",
+        "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../../../node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
@@ -4352,6 +4371,12 @@
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../../../node_modules/@types/prop-types/index.d.ts": [
+        "../../../node_modules/@types/node/fs.d.ts",
+        "../../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../node_modules/@types/node/util.d.ts",
+        "../../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../../../node_modules/@types/react-color/node_modules/@types/react/index.d.ts": [
         "../../../node_modules/@types/react-color/node_modules/csstype/index.d.ts",
         "../../../node_modules/@types/prop-types/index.d.ts",
@@ -4652,12 +4677,6 @@
         "../../../node_modules/@types/node/util.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../node_modules/@types/scheduler/index.d.ts": [
-        "../../../node_modules/@types/node/fs.d.ts",
-        "../../../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../../../node_modules/@types/node/util.d.ts",
-        "../../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../../../node_modules/@types/sinonjs__fake-timers/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -4899,29 +4918,29 @@
       "../../../node_modules/typescript/lib/lib.es2019.symbol.d.ts",
       "../../../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../../../node_modules/typescript/lib/lib.esnext.bigint.d.ts",
-      "../../utils/lib/constants.d.ts",
-      "../../../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
-      "../../utils/lib/history.d.ts",
-      "../../utils/lib/utilitytypes.d.ts",
-      "../../utils/lib/usemethods.d.ts",
-      "../../utils/lib/getdominfo.d.ts",
-      "../../utils/lib/usecollector.d.ts",
-      "../../utils/lib/eventhandlers/interfaces.d.ts",
-      "../../utils/lib/eventhandlers/eventhandlers.d.ts",
-      "../../utils/lib/eventhandlers/derivedeventhandlers.d.ts",
-      "../../../node_modules/@types/react/global.d.ts",
-      "../../../node_modules/@types/react/node_modules/csstype/index.d.ts",
-      "../../../node_modules/@types/prop-types/index.d.ts",
-      "../../../node_modules/@types/scheduler/tracing.d.ts",
-      "../../../node_modules/@types/react/index.d.ts",
-      "../../utils/lib/eventhandlers/wrapconnectorhooks.d.ts",
-      "../../utils/lib/eventhandlers/index.d.ts",
-      "../../utils/lib/renderindicator.d.ts",
-      "../../utils/lib/useeffectonce.d.ts",
-      "../../utils/lib/deprecate.d.ts",
-      "../../utils/lib/getrandomid.d.ts",
-      "../../utils/lib/platform.d.ts",
-      "../../utils/lib/index.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/constants.d.ts",
+      "../node_modules/immer/compat/pre-3.7/dist/immer.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/history.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/utilitytypes.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/usemethods.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/getdominfo.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/usecollector.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/interfaces.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/eventhandlers.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/derivedeventhandlers.d.ts",
+      "../node_modules/@types/react/global.d.ts",
+      "../node_modules/csstype/index.d.ts",
+      "../node_modules/@types/prop-types/index.d.ts",
+      "../node_modules/@types/scheduler/tracing.d.ts",
+      "../node_modules/@types/react/index.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/wrapconnectorhooks.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/eventhandlers/index.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/renderindicator.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/useeffectonce.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/deprecate.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/getrandomid.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/platform.d.ts",
+      "../node_modules/craftjs-utils-meetovo/lib/index.d.ts",
       "../node_modules/tiny-invariant/src/index.d.ts",
       "../src/editor/eventhelpers.ts",
       "../src/utils/getnodesfromselector.ts",
@@ -4941,7 +4960,6 @@
       "../src/editor/actions.ts",
       "../src/events/coreeventhandlers.ts",
       "../src/events/eventcontext.ts",
-      "../src/events/positioner.ts",
       "../src/events/createshadow.ts",
       "../src/events/defaulteventhandlers.ts",
       "../src/events/moveplaceholder.ts",
@@ -4973,6 +4991,7 @@
       "../src/editor/index.tsx",
       "../src/utils/testhelpers.ts",
       "../src/index.tsx",
+      "../node_modules/@types/scheduler/index.d.ts",
       "../../../node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
       "../../../node_modules/@types/babel__generator/index.d.ts",
       "../../../node_modules/@types/babel__traverse/node_modules/@babel/types/lib/index.d.ts",
@@ -5062,6 +5081,7 @@
       "../../../node_modules/@types/q/index.d.ts",
       "../../../node_modules/@types/react-color/node_modules/@types/react/global.d.ts",
       "../../../node_modules/@types/react-color/node_modules/csstype/index.d.ts",
+      "../../../node_modules/@types/prop-types/index.d.ts",
       "../../../node_modules/@types/react-color/node_modules/@types/react/index.d.ts",
       "../../../node_modules/@types/react-color/lib/components/alpha/alpha.d.ts",
       "../../../node_modules/@types/react-color/lib/components/block/block.d.ts",
@@ -5098,7 +5118,6 @@
       "../../../node_modules/@types/resolve/index.d.ts",
       "../../../node_modules/@types/responselike/index.d.ts",
       "../../../node_modules/@types/sax/index.d.ts",
-      "../../../node_modules/@types/scheduler/index.d.ts",
       "../../../node_modules/@types/sinonjs__fake-timers/index.d.ts",
       "../../../node_modules/@types/sizzle/index.d.ts",
       "../../../node_modules/@types/stack-utils/index.d.ts",
@@ -5126,7 +5145,8 @@
       "../../../node_modules/@types/testing-library__react/node_modules/@types/react-dom/test-utils/index.d.ts",
       "../../../node_modules/@types/testing-library__react/index.d.ts",
       "../../../node_modules/@types/yargs-parser/index.d.ts",
-      "../../../node_modules/@types/yargs/index.d.ts"
+      "../../../node_modules/@types/yargs/index.d.ts",
+      "../src/events/positioner.ts"
     ]
   },
   "version": "3.6.4"

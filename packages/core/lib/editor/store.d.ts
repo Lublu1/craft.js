@@ -10,21 +10,6 @@ export declare const ActionMethodsWithConfig: {
   methods: (
     state: EditorState,
     query: {
-      getDropPlaceholder: (
-        source:
-          | string
-          | string[]
-          | import('../interfaces').Node
-          | import('../interfaces').Node[],
-        target: string,
-        pos: {
-          x: number;
-          y: number;
-        },
-        nodesToDOM?: (node: import('../interfaces').Node) => HTMLElement
-      ) => import('../interfaces').Indicator;
-      getOptions: () => Options;
-      getNodes: () => Record<string, import('../interfaces').Node>;
       node: (
         id: string
       ) => {
@@ -50,8 +35,8 @@ export declare const ActionMethodsWithConfig: {
         isDroppable(
           selector:
             | string
-            | string[]
             | import('../interfaces').Node
+            | string[]
             | import('../interfaces').Node[],
           onError?: (err: string) => void
         ): boolean;
@@ -65,6 +50,21 @@ export declare const ActionMethodsWithConfig: {
         decendants(deep?: boolean): any;
         isTopLevelCanvas(): boolean;
       };
+      getDropPlaceholder: (
+        source:
+          | string
+          | import('../interfaces').Node
+          | string[]
+          | import('../interfaces').Node[],
+        target: string,
+        pos: {
+          x: number;
+          y: number;
+        },
+        nodesToDOM?: (node: import('../interfaces').Node) => HTMLElement
+      ) => import('../interfaces').Indicator;
+      getOptions: () => Options;
+      getNodes: () => Record<string, import('../interfaces').Node>;
       getSerializedNodes: () => Record<
         string,
         import('../interfaces').SerializedNode
@@ -150,7 +150,6 @@ export declare const ActionMethodsWithConfig: {
             setIndicator: (
               indicator: import('../interfaces').Indicator
             ) => void;
-            reset: () => void;
             addLinkedNodeFromTree: (
               tree: import('../interfaces').NodeTree,
               parentId: string,
@@ -177,8 +176,8 @@ export declare const ActionMethodsWithConfig: {
             move: (
               selector:
                 | string
-                | string[]
                 | import('../interfaces').Node
+                | string[]
                 | import('../interfaces').Node[],
               newParentId: string,
               index: number
@@ -186,6 +185,7 @@ export declare const ActionMethodsWithConfig: {
             replaceNodes: (
               nodes: Record<string, import('../interfaces').Node>
             ) => void;
+            reset: () => void;
             setCustom: (
               selector: string | string[],
               cb: (data: any) => void
@@ -216,7 +216,6 @@ export declare const ActionMethodsWithConfig: {
                   setIndicator: (
                     indicator: import('../interfaces').Indicator
                   ) => void;
-                  reset: () => void;
                   addLinkedNodeFromTree: (
                     tree: import('../interfaces').NodeTree,
                     parentId: string,
@@ -243,8 +242,8 @@ export declare const ActionMethodsWithConfig: {
                   move: (
                     selector:
                       | string
-                      | string[]
                       | import('../interfaces').Node
+                      | string[]
                       | import('../interfaces').Node[],
                     newParentId: string,
                     index: number
@@ -252,6 +251,7 @@ export declare const ActionMethodsWithConfig: {
                   replaceNodes: (
                     nodes: Record<string, import('../interfaces').Node>
                   ) => void;
+                  reset: () => void;
                   setCustom: (
                     selector: string | string[],
                     cb: (data: any) => void
@@ -268,7 +268,6 @@ export declare const ActionMethodsWithConfig: {
                 | 'clearEvents'
                 | 'setOptions'
                 | 'setIndicator'
-                | 'reset'
                 | 'addLinkedNodeFromTree'
                 | 'add'
                 | 'addNodeTree'
@@ -276,6 +275,7 @@ export declare const ActionMethodsWithConfig: {
                 | 'deserialize'
                 | 'move'
                 | 'replaceNodes'
+                | 'reset'
                 | 'setCustom'
                 | 'setHidden'
                 | 'setProp'
@@ -294,7 +294,6 @@ export declare const ActionMethodsWithConfig: {
                   setIndicator: (
                     indicator: import('../interfaces').Indicator
                   ) => void;
-                  reset: () => void;
                   addLinkedNodeFromTree: (
                     tree: import('../interfaces').NodeTree,
                     parentId: string,
@@ -321,8 +320,8 @@ export declare const ActionMethodsWithConfig: {
                   move: (
                     selector:
                       | string
-                      | string[]
                       | import('../interfaces').Node
+                      | string[]
                       | import('../interfaces').Node[],
                     newParentId: string,
                     index: number
@@ -330,6 +329,7 @@ export declare const ActionMethodsWithConfig: {
                   replaceNodes: (
                     nodes: Record<string, import('../interfaces').Node>
                   ) => void;
+                  reset: () => void;
                   setCustom: (
                     selector: string | string[],
                     cb: (data: any) => void
@@ -346,7 +346,6 @@ export declare const ActionMethodsWithConfig: {
                 | 'clearEvents'
                 | 'setOptions'
                 | 'setIndicator'
-                | 'reset'
                 | 'addLinkedNodeFromTree'
                 | 'add'
                 | 'addNodeTree'
@@ -354,6 +353,7 @@ export declare const ActionMethodsWithConfig: {
                 | 'deserialize'
                 | 'move'
                 | 'replaceNodes'
+                | 'reset'
                 | 'setCustom'
                 | 'setHidden'
                 | 'setProp'
@@ -372,7 +372,6 @@ export declare const ActionMethodsWithConfig: {
                   setIndicator: (
                     indicator: import('../interfaces').Indicator
                   ) => void;
-                  reset: () => void;
                   addLinkedNodeFromTree: (
                     tree: import('../interfaces').NodeTree,
                     parentId: string,
@@ -399,8 +398,8 @@ export declare const ActionMethodsWithConfig: {
                   move: (
                     selector:
                       | string
-                      | string[]
                       | import('../interfaces').Node
+                      | string[]
                       | import('../interfaces').Node[],
                     newParentId: string,
                     index: number
@@ -408,6 +407,7 @@ export declare const ActionMethodsWithConfig: {
                   replaceNodes: (
                     nodes: Record<string, import('../interfaces').Node>
                   ) => void;
+                  reset: () => void;
                   setCustom: (
                     selector: string | string[],
                     cb: (data: any) => void
@@ -424,7 +424,6 @@ export declare const ActionMethodsWithConfig: {
                 | 'clearEvents'
                 | 'setOptions'
                 | 'setIndicator'
-                | 'reset'
                 | 'addLinkedNodeFromTree'
                 | 'add'
                 | 'addNodeTree'
@@ -432,6 +431,7 @@ export declare const ActionMethodsWithConfig: {
                 | 'deserialize'
                 | 'move'
                 | 'replaceNodes'
+                | 'reset'
                 | 'setCustom'
                 | 'setHidden'
                 | 'setProp'
@@ -444,7 +444,6 @@ export declare const ActionMethodsWithConfig: {
           | 'clearEvents'
           | 'setOptions'
           | 'setIndicator'
-          | 'reset'
           | 'addLinkedNodeFromTree'
           | 'add'
           | 'addNodeTree'
@@ -452,6 +451,7 @@ export declare const ActionMethodsWithConfig: {
           | 'deserialize'
           | 'move'
           | 'replaceNodes'
+          | 'reset'
           | 'setCustom'
           | 'setHidden'
           | 'setProp'
@@ -480,8 +480,8 @@ export declare const ActionMethodsWithConfig: {
     move(
       selector:
         | string
-        | string[]
         | import('../interfaces').Node
+        | string[]
         | import('../interfaces').Node[],
       newParentId: string,
       index: number
@@ -527,21 +527,6 @@ export declare const useEditorStore: (
       methods: (
         state: EditorState,
         query: {
-          getDropPlaceholder: (
-            source:
-              | string
-              | string[]
-              | import('../interfaces').Node
-              | import('../interfaces').Node[],
-            target: string,
-            pos: {
-              x: number;
-              y: number;
-            },
-            nodesToDOM?: (node: import('../interfaces').Node) => HTMLElement
-          ) => import('../interfaces').Indicator;
-          getOptions: () => Options;
-          getNodes: () => Record<string, import('../interfaces').Node>;
           node: (
             id: string
           ) => {
@@ -567,8 +552,8 @@ export declare const useEditorStore: (
             isDroppable(
               selector:
                 | string
-                | string[]
                 | import('../interfaces').Node
+                | string[]
                 | import('../interfaces').Node[],
               onError?: (err: string) => void
             ): boolean;
@@ -582,6 +567,21 @@ export declare const useEditorStore: (
             decendants(deep?: boolean): any;
             isTopLevelCanvas(): boolean;
           };
+          getDropPlaceholder: (
+            source:
+              | string
+              | import('../interfaces').Node
+              | string[]
+              | import('../interfaces').Node[],
+            target: string,
+            pos: {
+              x: number;
+              y: number;
+            },
+            nodesToDOM?: (node: import('../interfaces').Node) => HTMLElement
+          ) => import('../interfaces').Indicator;
+          getOptions: () => Options;
+          getNodes: () => Record<string, import('../interfaces').Node>;
           getSerializedNodes: () => Record<
             string,
             import('../interfaces').SerializedNode
@@ -671,7 +671,6 @@ export declare const useEditorStore: (
                 setIndicator: (
                   indicator: import('../interfaces').Indicator
                 ) => void;
-                reset: () => void;
                 addLinkedNodeFromTree: (
                   tree: import('../interfaces').NodeTree,
                   parentId: string,
@@ -698,8 +697,8 @@ export declare const useEditorStore: (
                 move: (
                   selector:
                     | string
-                    | string[]
                     | import('../interfaces').Node
+                    | string[]
                     | import('../interfaces').Node[],
                   newParentId: string,
                   index: number
@@ -707,6 +706,7 @@ export declare const useEditorStore: (
                 replaceNodes: (
                   nodes: Record<string, import('../interfaces').Node>
                 ) => void;
+                reset: () => void;
                 setCustom: (
                   selector: string | string[],
                   cb: (data: any) => void
@@ -739,7 +739,6 @@ export declare const useEditorStore: (
                       setIndicator: (
                         indicator: import('../interfaces').Indicator
                       ) => void;
-                      reset: () => void;
                       addLinkedNodeFromTree: (
                         tree: import('../interfaces').NodeTree,
                         parentId: string,
@@ -769,8 +768,8 @@ export declare const useEditorStore: (
                       move: (
                         selector:
                           | string
-                          | string[]
                           | import('../interfaces').Node
+                          | string[]
                           | import('../interfaces').Node[],
                         newParentId: string,
                         index: number
@@ -778,6 +777,7 @@ export declare const useEditorStore: (
                       replaceNodes: (
                         nodes: Record<string, import('../interfaces').Node>
                       ) => void;
+                      reset: () => void;
                       setCustom: (
                         selector: string | string[],
                         cb: (data: any) => void
@@ -794,7 +794,6 @@ export declare const useEditorStore: (
                     | 'clearEvents'
                     | 'setOptions'
                     | 'setIndicator'
-                    | 'reset'
                     | 'addLinkedNodeFromTree'
                     | 'add'
                     | 'addNodeTree'
@@ -802,6 +801,7 @@ export declare const useEditorStore: (
                     | 'deserialize'
                     | 'move'
                     | 'replaceNodes'
+                    | 'reset'
                     | 'setCustom'
                     | 'setHidden'
                     | 'setProp'
@@ -822,7 +822,6 @@ export declare const useEditorStore: (
                       setIndicator: (
                         indicator: import('../interfaces').Indicator
                       ) => void;
-                      reset: () => void;
                       addLinkedNodeFromTree: (
                         tree: import('../interfaces').NodeTree,
                         parentId: string,
@@ -852,8 +851,8 @@ export declare const useEditorStore: (
                       move: (
                         selector:
                           | string
-                          | string[]
                           | import('../interfaces').Node
+                          | string[]
                           | import('../interfaces').Node[],
                         newParentId: string,
                         index: number
@@ -861,6 +860,7 @@ export declare const useEditorStore: (
                       replaceNodes: (
                         nodes: Record<string, import('../interfaces').Node>
                       ) => void;
+                      reset: () => void;
                       setCustom: (
                         selector: string | string[],
                         cb: (data: any) => void
@@ -877,7 +877,6 @@ export declare const useEditorStore: (
                     | 'clearEvents'
                     | 'setOptions'
                     | 'setIndicator'
-                    | 'reset'
                     | 'addLinkedNodeFromTree'
                     | 'add'
                     | 'addNodeTree'
@@ -885,6 +884,7 @@ export declare const useEditorStore: (
                     | 'deserialize'
                     | 'move'
                     | 'replaceNodes'
+                    | 'reset'
                     | 'setCustom'
                     | 'setHidden'
                     | 'setProp'
@@ -905,7 +905,6 @@ export declare const useEditorStore: (
                       setIndicator: (
                         indicator: import('../interfaces').Indicator
                       ) => void;
-                      reset: () => void;
                       addLinkedNodeFromTree: (
                         tree: import('../interfaces').NodeTree,
                         parentId: string,
@@ -935,8 +934,8 @@ export declare const useEditorStore: (
                       move: (
                         selector:
                           | string
-                          | string[]
                           | import('../interfaces').Node
+                          | string[]
                           | import('../interfaces').Node[],
                         newParentId: string,
                         index: number
@@ -944,6 +943,7 @@ export declare const useEditorStore: (
                       replaceNodes: (
                         nodes: Record<string, import('../interfaces').Node>
                       ) => void;
+                      reset: () => void;
                       setCustom: (
                         selector: string | string[],
                         cb: (data: any) => void
@@ -960,7 +960,6 @@ export declare const useEditorStore: (
                     | 'clearEvents'
                     | 'setOptions'
                     | 'setIndicator'
-                    | 'reset'
                     | 'addLinkedNodeFromTree'
                     | 'add'
                     | 'addNodeTree'
@@ -968,6 +967,7 @@ export declare const useEditorStore: (
                     | 'deserialize'
                     | 'move'
                     | 'replaceNodes'
+                    | 'reset'
                     | 'setCustom'
                     | 'setHidden'
                     | 'setProp'
@@ -980,7 +980,6 @@ export declare const useEditorStore: (
               | 'clearEvents'
               | 'setOptions'
               | 'setIndicator'
-              | 'reset'
               | 'addLinkedNodeFromTree'
               | 'add'
               | 'addNodeTree'
@@ -988,6 +987,7 @@ export declare const useEditorStore: (
               | 'deserialize'
               | 'move'
               | 'replaceNodes'
+              | 'reset'
               | 'setCustom'
               | 'setHidden'
               | 'setProp'
@@ -1018,8 +1018,8 @@ export declare const useEditorStore: (
         move(
           selector:
             | string
-            | string[]
             | import('../interfaces').Node
+            | string[]
             | import('../interfaces').Node[],
           newParentId: string,
           index: number
@@ -1060,21 +1060,6 @@ export declare const useEditorStore: (
     methods: (
       state: EditorState,
       query: {
-        getDropPlaceholder: (
-          source:
-            | string
-            | string[]
-            | import('../interfaces').Node
-            | import('../interfaces').Node[],
-          target: string,
-          pos: {
-            x: number;
-            y: number;
-          },
-          nodesToDOM?: (node: import('../interfaces').Node) => HTMLElement
-        ) => import('../interfaces').Indicator;
-        getOptions: () => Options;
-        getNodes: () => Record<string, import('../interfaces').Node>;
         node: (
           id: string
         ) => {
@@ -1100,8 +1085,8 @@ export declare const useEditorStore: (
           isDroppable(
             selector:
               | string
-              | string[]
               | import('../interfaces').Node
+              | string[]
               | import('../interfaces').Node[],
             onError?: (err: string) => void
           ): boolean;
@@ -1115,6 +1100,21 @@ export declare const useEditorStore: (
           decendants(deep?: boolean): any;
           isTopLevelCanvas(): boolean;
         };
+        getDropPlaceholder: (
+          source:
+            | string
+            | import('../interfaces').Node
+            | string[]
+            | import('../interfaces').Node[],
+          target: string,
+          pos: {
+            x: number;
+            y: number;
+          },
+          nodesToDOM?: (node: import('../interfaces').Node) => HTMLElement
+        ) => import('../interfaces').Indicator;
+        getOptions: () => Options;
+        getNodes: () => Record<string, import('../interfaces').Node>;
         getSerializedNodes: () => Record<
           string,
           import('../interfaces').SerializedNode
@@ -1200,7 +1200,6 @@ export declare const useEditorStore: (
               setIndicator: (
                 indicator: import('../interfaces').Indicator
               ) => void;
-              reset: () => void;
               addLinkedNodeFromTree: (
                 tree: import('../interfaces').NodeTree,
                 parentId: string,
@@ -1227,8 +1226,8 @@ export declare const useEditorStore: (
               move: (
                 selector:
                   | string
-                  | string[]
                   | import('../interfaces').Node
+                  | string[]
                   | import('../interfaces').Node[],
                 newParentId: string,
                 index: number
@@ -1236,6 +1235,7 @@ export declare const useEditorStore: (
               replaceNodes: (
                 nodes: Record<string, import('../interfaces').Node>
               ) => void;
+              reset: () => void;
               setCustom: (
                 selector: string | string[],
                 cb: (data: any) => void
@@ -1268,7 +1268,6 @@ export declare const useEditorStore: (
                     setIndicator: (
                       indicator: import('../interfaces').Indicator
                     ) => void;
-                    reset: () => void;
                     addLinkedNodeFromTree: (
                       tree: import('../interfaces').NodeTree,
                       parentId: string,
@@ -1295,8 +1294,8 @@ export declare const useEditorStore: (
                     move: (
                       selector:
                         | string
-                        | string[]
                         | import('../interfaces').Node
+                        | string[]
                         | import('../interfaces').Node[],
                       newParentId: string,
                       index: number
@@ -1304,6 +1303,7 @@ export declare const useEditorStore: (
                     replaceNodes: (
                       nodes: Record<string, import('../interfaces').Node>
                     ) => void;
+                    reset: () => void;
                     setCustom: (
                       selector: string | string[],
                       cb: (data: any) => void
@@ -1320,7 +1320,6 @@ export declare const useEditorStore: (
                   | 'clearEvents'
                   | 'setOptions'
                   | 'setIndicator'
-                  | 'reset'
                   | 'addLinkedNodeFromTree'
                   | 'add'
                   | 'addNodeTree'
@@ -1328,6 +1327,7 @@ export declare const useEditorStore: (
                   | 'deserialize'
                   | 'move'
                   | 'replaceNodes'
+                  | 'reset'
                   | 'setCustom'
                   | 'setHidden'
                   | 'setProp'
@@ -1348,7 +1348,6 @@ export declare const useEditorStore: (
                     setIndicator: (
                       indicator: import('../interfaces').Indicator
                     ) => void;
-                    reset: () => void;
                     addLinkedNodeFromTree: (
                       tree: import('../interfaces').NodeTree,
                       parentId: string,
@@ -1375,8 +1374,8 @@ export declare const useEditorStore: (
                     move: (
                       selector:
                         | string
-                        | string[]
                         | import('../interfaces').Node
+                        | string[]
                         | import('../interfaces').Node[],
                       newParentId: string,
                       index: number
@@ -1384,6 +1383,7 @@ export declare const useEditorStore: (
                     replaceNodes: (
                       nodes: Record<string, import('../interfaces').Node>
                     ) => void;
+                    reset: () => void;
                     setCustom: (
                       selector: string | string[],
                       cb: (data: any) => void
@@ -1400,7 +1400,6 @@ export declare const useEditorStore: (
                   | 'clearEvents'
                   | 'setOptions'
                   | 'setIndicator'
-                  | 'reset'
                   | 'addLinkedNodeFromTree'
                   | 'add'
                   | 'addNodeTree'
@@ -1408,6 +1407,7 @@ export declare const useEditorStore: (
                   | 'deserialize'
                   | 'move'
                   | 'replaceNodes'
+                  | 'reset'
                   | 'setCustom'
                   | 'setHidden'
                   | 'setProp'
@@ -1428,7 +1428,6 @@ export declare const useEditorStore: (
                     setIndicator: (
                       indicator: import('../interfaces').Indicator
                     ) => void;
-                    reset: () => void;
                     addLinkedNodeFromTree: (
                       tree: import('../interfaces').NodeTree,
                       parentId: string,
@@ -1455,8 +1454,8 @@ export declare const useEditorStore: (
                     move: (
                       selector:
                         | string
-                        | string[]
                         | import('../interfaces').Node
+                        | string[]
                         | import('../interfaces').Node[],
                       newParentId: string,
                       index: number
@@ -1464,6 +1463,7 @@ export declare const useEditorStore: (
                     replaceNodes: (
                       nodes: Record<string, import('../interfaces').Node>
                     ) => void;
+                    reset: () => void;
                     setCustom: (
                       selector: string | string[],
                       cb: (data: any) => void
@@ -1480,7 +1480,6 @@ export declare const useEditorStore: (
                   | 'clearEvents'
                   | 'setOptions'
                   | 'setIndicator'
-                  | 'reset'
                   | 'addLinkedNodeFromTree'
                   | 'add'
                   | 'addNodeTree'
@@ -1488,6 +1487,7 @@ export declare const useEditorStore: (
                   | 'deserialize'
                   | 'move'
                   | 'replaceNodes'
+                  | 'reset'
                   | 'setCustom'
                   | 'setHidden'
                   | 'setProp'
@@ -1500,7 +1500,6 @@ export declare const useEditorStore: (
             | 'clearEvents'
             | 'setOptions'
             | 'setIndicator'
-            | 'reset'
             | 'addLinkedNodeFromTree'
             | 'add'
             | 'addNodeTree'
@@ -1508,6 +1507,7 @@ export declare const useEditorStore: (
             | 'deserialize'
             | 'move'
             | 'replaceNodes'
+            | 'reset'
             | 'setCustom'
             | 'setHidden'
             | 'setProp'
@@ -1538,8 +1538,8 @@ export declare const useEditorStore: (
       move(
         selector:
           | string
-          | string[]
           | import('../interfaces').Node
+          | string[]
           | import('../interfaces').Node[],
         newParentId: string,
         index: number

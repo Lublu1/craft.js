@@ -252,8 +252,8 @@ function Element$1(e) {
     c = d.node,
     u = d.inNodeContext,
     l = React.useState(null),
-    f = l[0],
-    p = l[1];
+    p = l[0],
+    f = l[1];
   return (
     craftjsUtilsMeetovo.useEffectOnce(function () {
       invariant(!!t, craftjsUtilsMeetovo.ERROR_TOP_LEVEL_ELEMENT_NO_ID);
@@ -265,14 +265,14 @@ function Element$1(e) {
             a.linkedNodes && a.linkedNodes[t] && i.node(a.linkedNodes[t]).get();
         if (l && l.data.type === o) d = l.id;
         else {
-          var f = React.createElement(Element$1, r, n),
-            v = i.parseReactElement(f).toNodeTree();
+          var p = React.createElement(Element$1, r, n),
+            v = i.parseReactElement(p).toNodeTree();
           (d = v.rootNodeId), s.history.ignore().addLinkedNodeFromTree(v, e, t);
         }
-        p(d);
+        f(d);
       }
     }),
-    f ? React.createElement(NodeElement, { id: f }) : null
+    p ? React.createElement(NodeElement, { id: p }) : null
   );
 }
 var deprecateCanvasComponent = function () {
@@ -993,18 +993,18 @@ function findPosition(e, t, n, r) {
       c = 0,
       u = 0,
       l = 0,
-      f = t.length;
-    l < f;
+      p = t.length;
+    l < p;
     l++
   ) {
-    var p = t[l];
+    var f = t[l];
     if (
-      ((u = p.top + p.outerHeight),
-      (d = p.left + p.outerWidth / 2),
-      (c = p.top + p.outerHeight / 2),
-      !((i && p.left > i) || (s && c >= s) || (a && p.left + p.outerWidth < a)))
+      ((u = f.top + f.outerHeight),
+      (d = f.left + f.outerWidth / 2),
+      (c = f.top + f.outerHeight / 2),
+      !((i && f.left > i) || (s && c >= s) || (a && f.left + f.outerWidth < a)))
     )
-      if (((o.index = l), p.inFlow)) {
+      if (((o.index = l), f.inFlow)) {
         if (r < c) {
           o.where = 'before';
           break;
@@ -1552,12 +1552,19 @@ var CoreEventHandlers = (function (e) {
           var o = findPosition(r, this.currentTargetChildDimensions, t, n),
             a = this.store.query.node(this.currentDropTargetId).get();
           if (!this.isDiff(o))
-            return this.isIndicatorUpdateRequired(r, a)
+            return this.isIndicatorUpdateRequired(r, a) &&
+              'new' === this.dragTarget.type
               ? this.getNewIndicatorPosition(r, a)
               : void 0;
-          if (this.isIndicatorUpdateRequired(r, a))
+          if (
+            this.isIndicatorUpdateRequired(r, a) &&
+            'new' === this.dragTarget.type
+          )
             return this.getNewIndicatorPosition(r, a);
-          if (!this.shouldUpdateIndicator(r, a)) {
+          if (
+            !this.shouldUpdateIndicator(r, a) ||
+            'new' !== this.dragTarget.type
+          ) {
             var i = this.dragError;
             i ||
               this.store.query.node(r.id).isDroppable(
